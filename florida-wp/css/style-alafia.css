@@ -1,0 +1,86 @@
+/*----------------------------------
+
+	Theme Name: Florida
+	----------------------
+		
+	/* #Alafia Template
+	================================================== */
+	
+	/* Fonts */
+	h1 , h2 , h3 , h4 , h5 , h6 { font-family: 'Oswald','Roboto',  Helvetica, Arial, sans-serif; color:#000;}
+	
+	/* Base Elements */
+	h1.slog-t1 { font-size:80px; font-weight:bold; margin-bottom:25px;}
+	h2.slog-t2 { font-size:49px; text-align:center; margin:10px 0 25px; letter-spacing:-2px;}
+	.button,
+	button, a.button {
+	  position:relative;
+	  border: none;
+	  border-radius:1px;
+	  color: #fff;
+	  display: inline-block;
+	  font-size: 15px;
+	  line-height:1;
+	  font-weight: 600;
+	  cursor: pointer;
+	  line-height: 1;
+	  padding: 14px 20px;
+	   }	
+	a.button, a.button:hover { padding: 10px 13px; font-size: 15px; font-weight:600; border-radius:0;}
+	a.button.small, a.button.small:hover { padding: 6px 10px; font-size: 12px; text-transform:uppercase; }		 
+	a.button.large, a.button.large:hover { padding: 16px 20px; font-size:17px; letter-spacing:2px; font-weight:600; border-width:3px; }
+	a.button:after { display:none;}
+	.blox a.button.gray, a.button.bordered-bot.gray { color:#000; border-color:#000; border-radius:0;}
+	.blox a.button.gray:hover, a.button.bordered-bot.gray:hover { color:#fff; background:#000 !important;}
+	.blox.dark a.button.gray { color:#fff; border-color:#fff; border-radius:0;}
+	.blox.dark a.button.gray:hover { color:#000; background:#fff !important; box-shadow:none;}
+	#wrap  .wpb_single_image.wpb_content_element { margin-bottom:0;}
+	.wpb_gmaps_widget.orchid-map, .w-map { border:1px solid #d9d9d9; background:#fff; padding:12px;}
+	section.wpb_row.full-row .w-map { border:none; background:none; padding:0;}
+	.blog-single-post h1, .postshow1 h1 { letter-spacing:-2px;}
+	.our-team h2, .our-team h5 { padding-left:0; color:#292929; text-shadow:none; margin-bottom:10px; margin-top:10px; line-height:1.5;}
+	.our-team h5 { margin-bottom:16px;}
+	.icon-box14 i { color:#e9b027;}
+	.sidebar h4.subtitle, .widget h4.subtitle, .max-title5 h2, nav.primary .portfolioFilters a, .ts-tetra.testimonials-slider-w .testimonial-brand h5, #nav > li > a,
+	.vertical-toggle-header-enabled #header.vertical-w #nav > li > a { font-family:'Oswald','Roboto', sans-serif;}
+	.widget h4.subtitle:after { border-color:#d11b4a;}
+	.max-title5:after { width:30px; height:3px; border-radius:0; background:#e9b027; border:none; margin-top:-23px; margin-left:-15px;}
+	nav.primary .portfolioFilters a { border-radius:0;}
+	nav.primary .portfolioFilters a:hover { border-color:#e9b027;}
+	nav.primary .portfolioFilters a.selected, nav.primary ul li a:active, .zoomex2:hover i { border-color:#e9b027; color:#e9b027;}
+	.ts-tetra.testimonials-slider-w.flexslider .flex-control-paging li a.flex-active { background:#e9b027;}
+	@media only screen and (min-width: 961px) {
+	#toggle-icon span.mn-ext1, #toggle-icon span.mn-ext2, #toggle-icon span.mn-ext3 { background: #e9b027; }
+	}
+
+	
+	.top-bar .socialfollow a { background:none; padding:9px; border-radius:0; margin:0;}
+	.top-bar .socialfollow a.facebook:hover { background: #3b5996; color:#fff;}
+	.top-bar .socialfollow a.twitter:hover { background: #00acee; color:#fff;}
+	.top-bar .socialfollow a.vimeo:hover { background: #0dadd6; color:#fff;}
+	.top-bar .socialfollow a.dribble:hover { background: #d53e68; color:#fff;}
+	.top-bar .socialfollow a.youtube:hover { background: #cb322c; color:#fff;}
+	.top-bar .socialfollow a.pinterest:hover { background: #cb2027; color:#fff;}
+	.top-bar .socialfollow a.google:hover { background: #c3391c; color:#fff;}
+	.top-bar .socialfollow a.linkedin:hover { background: #0073b2; color:#fff;}
+	.top-bar .socialfollow a.rss:hover { background: #f29a1d; color:#fff;}
+	.top-bar .socialfollow a.instagram:hover { background: #457399; color:#fff;}
+	.top-bar .socialfollow a.other-social:hover { background: #ff5d5e; color:#fff;}
+	.top-bar .socialfollow a:hover i {color:#fff !important;}
+	
+	
+	@media only screen and (max-width: 960px) {
+	#header.sm-rgt-mn { background:#353c3e;}
+	.top-bar { background:#232829; border:none;}	
+	}
+	
+	.latestposts-six .latest-title { font-weight:400; letter-spacing:0;}
+	
+	#footer { background:#2d2d2d; padding-top:40px;}
+	#footer .footer-in p { font-family: 'Roboto Slab',  Helvetica, Arial, sans-serif; font-size:13px;}
+	#footer .footer-in .textwidget { color:#777;}
+	#footer .footer-in h5.subtitle { font-size:20px; border:none; text-transform:none; box-shadow:none; margin-top:30px; color:#fff; text-shadow: 0 1px 2px rgba(0,0,0,0.7);}
+	#footer .footer-in .contact-inf input, #footer .footer-in .contact-inf textarea { background: none; color: #ccc; border: 2px solid #393939; font-size: 12px; border-radius: 0; }
+	#footer .footer-in .contact-inf button { padding: 14px 28px; font-size: 11px; font-weight:600; color:#fff; letter-spacing: 2px; background: #252525; border: none; float: left; margin-right:6px; }
+	
+/* -------- end ----------- */	

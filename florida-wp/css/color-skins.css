@@ -1,0 +1,521 @@
+/*----------------------------------
+
+	Theme Name: Florida
+	----------------------
+	
+/*----------------------------------
+	
+	/* #Color Skins
+================================================== */
+.colorskin-1 .blox.dark *,.colorskin-2 .blox.dark *,.colorskin-3 .blox.dark *,.colorskin-4 .blox.dark *,.colorskin-5 .blox.dark *,.colorskin-6 .blox.dark *,.colorskin-7 .blox.dark *,.colorskin-8 .blox.dark *,.colorskin-9 .blox.dark *,.colorskin-10 .blox.dark *{color:#fff},.colorskin-11 .blox.dark *{color:#fff},.colorskin-12 .blox.dark *{color:#fff},.colorskin-13 .blox.dark *{color:#fff},.colorskin-14 .blox.dark *{color:#fff},.colorskin-15 .blox.dark *{color:#fff},.colorskin-16 .blox.dark *{color:#fff},.colorskin-17 .blox.dark *{color:#fff},.colorskin-18 .blox.dark *{color:#fff},.colorskin-19 .blox.dark *{color:#fff},.colorskin-20 .blox.dark *{color:#fff}
+
+
+
+/* == Color Skin 1 #(Teal)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-1 .icon-box3:hover i,.colorskin-1 #nav ul li a:hover, .colorskin-1 #nav li.current ul li a:hover, .colorskin-1 .nav-wrap2 #nav ul li a:hover, .colorskin-1 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-1 #nav ul li.current > a, .colorskin-1 #nav ul li:hover > a,.colorskin-1 nav.primary .portfolioFilters a.selected, .colorskin-1 nav.primary ul li a:active,.colorskin-1 .zoomex2 a:hover i,.colorskin-1 .pin-box h4 a:hover, .colorskin-1 .tline-box h4 a:hover,.colorskin-1 .blog-post a:hover, .colorskin-1 .blog-author span, .colorskin-1 .blog-line p a:hover,.colorskin-1 a.readmore:hover,.colorskin-1 .jcarousel-next:hover, .colorskin-1 .jcarousel-next:active, .colorskin-1 .jcarousel-prev:hover, .colorskin-1 .jcarousel-prev:active,.colorskin-1 .latestposts-two .blog-line p.blog-cat a,.colorskin-1 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-1 .latestposts-two .blog-line:hover h4 a,.colorskin-1 a.readmore:hover:after
+{ color: #1bbc9b; }
+
+/* == Backgrounds
+----------------- */
+.colorskin-1 .icon-box4:hover i, .colorskin-1 .icon-box5:hover i, .colorskin-1 .icon-box7:hover i, .colorskin-1 .icon-box8:hover i, .colorskin-1 .icon-box11:hover i, .colorskin-1 .icon-box13 a.magicmore:hover, .colorskin-1 #nav > li.current:after, .colorskin-1 #footer .side-list li:hover img, .colorskin-1 .toggle-top-area .side-list li:hover img, .colorskin-1 #footer .tagcloud a:hover, .colorskin-1 .toggle-top-area .tagcloud a:hover, .colorskin-1 .side-list li:hover img, .colorskin-1 .widget_shopping_cart .sidebar-line, .colorskin-1 .widget_shopping_cart_content p.buttons a.button, .colorskin-1 .single .woo-template span.onsale, .colorskin-1 .woocommerce ul.products li.product .onsale, .colorskin-1 .our-process-item:hover i, .colorskin-1 .woocommerce a.button.alt, .colorskin-1 .woocommerce button.button.alt, .colorskin-1 .woocommerce input.button.alt, .colorskin-1 .woocommerce #respond input#submit.alt, .colorskin-1 .postmetadata h6.blog-views span, .colorskin-1 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-1 .pin-ecxt2 .col1-3 span, .colorskin-1 .comments-number-x span,
+.colorskin-1 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-1 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-1 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-1 .icon-box1 i, .colorskin-1 .icon-box1 img
+{ background-color: #1bbc9b; }
+
+/* == BorderColors
+------------------ */
+.colorskin-1 nav.primary .portfolioFilters a.selected, .colorskin-1 nav.primary ul li a:active, .colorskin-1 nav.primary .portfolioFilters a:hover, .colorskin-1 .zoomex2 a:hover i, .colorskin-1 .widget h4.subtitle:after, .colorskin-1 a.readmore:hover, .colorskin-1 .tagcloud a:hover, .colorskin-1 #footer.litex .tagcloud a:hover, .colorskin-1 .icon-box8:hover i, .colorskin-1 .icon-box11:hover i, .colorskin-1 .our-team:hover img, .colorskin-1 .jcarousel-next:hover, .colorskin-1 .jcarousel-next:active, .colorskin-1 .jcarousel-prev:hover, .colorskin-1 .jcarousel-prev:active, .colorskin-1 .our-process-item:hover i, .colorskin-1 .woocommerce-info
+{ border-color:#1bbc9b; }
+
+
+
+
+
+/* == Color Skin 2 #(Blue)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-2 .icon-box3:hover i,.colorskin-2 #nav ul li a:hover, .colorskin-2 #nav li.current ul li a:hover, .colorskin-2 .nav-wrap2 #nav ul li a:hover, .colorskin-2 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-2 #nav ul li.current > a, .colorskin-2 #nav ul li:hover > a,.colorskin-2 nav.primary .portfolioFilters a.selected, .colorskin-2 nav.primary ul li a:active,.colorskin-2 .zoomex2 a:hover i,.colorskin-2 .pin-box h4 a:hover, .colorskin-2 .tline-box h4 a:hover,.colorskin-2 .blog-post a:hover, .colorskin-2 .blog-author span, .colorskin-2 .blog-line p a:hover,.colorskin-2 a.readmore:hover,.colorskin-2 .jcarousel-next:hover, .colorskin-2 .jcarousel-next:active, .colorskin-2 .jcarousel-prev:hover, .colorskin-2 .jcarousel-prev:active,.colorskin-2 .latestposts-two .blog-line p.blog-cat a,.colorskin-2 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-2 .latestposts-two .blog-line:hover h4 a,.colorskin-2 a.readmore:hover:after
+{ color: #0093d0; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-2 .icon-box4:hover i, .colorskin-2 .icon-box5:hover i, .colorskin-2 .icon-box7:hover i, .colorskin-2 .icon-box8:hover i, .colorskin-2 .icon-box11:hover i, .colorskin-2 .icon-box13 a.magicmore:hover, .colorskin-2 #nav > li.current:after, .colorskin-2 #footer .side-list li:hover img, .colorskin-2 .toggle-top-area .side-list li:hover img, .colorskin-2 #footer .tagcloud a:hover, .colorskin-2 .toggle-top-area .tagcloud a:hover, .colorskin-2 .side-list li:hover img, .colorskin-2 .widget_shopping_cart .sidebar-line, .colorskin-2 .widget_shopping_cart_content p.buttons a.button, .colorskin-2 .single .woo-template span.onsale, .colorskin-2 .woocommerce ul.products li.product .onsale, .colorskin-2 .our-process-item:hover i, .colorskin-2 .woocommerce a.button.alt, .colorskin-2 .woocommerce button.button.alt, .colorskin-2 .woocommerce input.button.alt, .colorskin-2 .woocommerce #respond input#submit.alt, .colorskin-2 .postmetadata h6.blog-views span, .colorskin-2 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-2 .pin-ecxt2 .col1-3 span, .colorskin-2 .comments-number-x span,
+.colorskin-2 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-2 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-2 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-2 .icon-box1 i, .colorskin-2 .icon-box1 img
+{ background-color: #0093d0; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-2 nav.primary .portfolioFilters a.selected, .colorskin-2 nav.primary ul li a:active, .colorskin-2 nav.primary .portfolioFilters a:hover, .colorskin-2 .zoomex2 a:hover i, .colorskin-2 .widget h4.subtitle:after, .colorskin-2 a.readmore:hover, .colorskin-2 .tagcloud a:hover, .colorskin-2 #footer.litex .tagcloud a:hover, .colorskin-2 .icon-box8:hover i, .colorskin-2 .icon-box11:hover i, .colorskin-2 .our-team:hover img, .colorskin-2 .jcarousel-next:hover, .colorskin-2 .jcarousel-next:active, .colorskin-2 .jcarousel-prev:hover, .colorskin-2 .jcarousel-prev:active, .colorskin-2 .our-process-item:hover i, .colorskin-2 .woocommerce-info
+{ border-color:#0093d0; }
+
+
+
+
+
+/* == Color Skin 3 #(Red)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-3 .icon-box3:hover i,.colorskin-3 #nav ul li a:hover, .colorskin-3 #nav li.current ul li a:hover, .colorskin-3 .nav-wrap2 #nav ul li a:hover, .colorskin-3 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-3 #nav ul li.current > a, .colorskin-3 #nav ul li:hover > a,.colorskin-3 nav.primary .portfolioFilters a.selected, .colorskin-3 nav.primary ul li a:active,.colorskin-3 .zoomex2 a:hover i,.colorskin-3 .pin-box h4 a:hover, .colorskin-3 .tline-box h4 a:hover,.colorskin-3 .blog-post a:hover, .colorskin-3 .blog-author span, .colorskin-3 .blog-line p a:hover,.colorskin-3 a.readmore:hover,.colorskin-3 .jcarousel-next:hover, .colorskin-3 .jcarousel-next:active, .colorskin-3 .jcarousel-prev:hover, .colorskin-3 .jcarousel-prev:active,.colorskin-3 .latestposts-two .blog-line p.blog-cat a,.colorskin-3 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-3 .latestposts-two .blog-line:hover h4 a,.colorskin-3 a.readmore:hover:after
+{ color: #e53f51; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-3 .icon-box4:hover i, .colorskin-3 .icon-box5:hover i, .colorskin-3 .icon-box7:hover i, .colorskin-3 .icon-box8:hover i, .colorskin-3 .icon-box11:hover i, .colorskin-3 .icon-box13 a.magicmore:hover, .colorskin-3 #nav > li.current:after, .colorskin-3 #footer .side-list li:hover img, .colorskin-3 .toggle-top-area .side-list li:hover img, .colorskin-3 #footer .tagcloud a:hover, .colorskin-3 .toggle-top-area .tagcloud a:hover, .colorskin-3 .side-list li:hover img, .colorskin-3 .widget_shopping_cart .sidebar-line, .colorskin-3 .widget_shopping_cart_content p.buttons a.button, .colorskin-3 .single .woo-template span.onsale, .colorskin-3 .woocommerce ul.products li.product .onsale, .colorskin-3 .our-process-item:hover i, .colorskin-3 .woocommerce a.button.alt, .colorskin-3 .woocommerce button.button.alt, .colorskin-3 .woocommerce input.button.alt, .colorskin-3 .woocommerce #respond input#submit.alt, .colorskin-3 .postmetadata h6.blog-views span, .colorskin-3 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-3 .pin-ecxt2 .col1-3 span, .colorskin-3 .comments-number-x span,
+.colorskin-3 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-3 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-3 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-3 .icon-box1 i, .colorskin-3 .icon-box1 img
+{ background-color: #e53f51; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-3 nav.primary .portfolioFilters a.selected, .colorskin-3 nav.primary ul li a:active, .colorskin-3 nav.primary .portfolioFilters a:hover, .colorskin-3 .zoomex2 a:hover i, .colorskin-3 .widget h4.subtitle:after, .colorskin-3 a.readmore:hover, .colorskin-3 .tagcloud a:hover, .colorskin-3 #footer.litex .tagcloud a:hover, .colorskin-3 .icon-box8:hover i, .colorskin-3 .icon-box11:hover i, .colorskin-3 .our-team:hover img, .colorskin-3 .jcarousel-next:hover, .colorskin-3 .jcarousel-next:active, .colorskin-3 .jcarousel-prev:hover, .colorskin-3 .jcarousel-prev:active, .colorskin-3 .our-process-item:hover i, .colorskin-3 .woocommerce-info
+{ border-color:#e53f51; }
+
+
+
+
+
+/* == Color Skin 4 #(Yellow)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-4 .icon-box3:hover i,.colorskin-4 #nav ul li a:hover, .colorskin-4 #nav li.current ul li a:hover, .colorskin-4 .nav-wrap2 #nav ul li a:hover, .colorskin-4 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-4 #nav ul li.current > a, .colorskin-4 #nav ul li:hover > a,.colorskin-4 nav.primary .portfolioFilters a.selected, .colorskin-4 nav.primary ul li a:active,.colorskin-4 .zoomex2 a:hover i,.colorskin-4 .pin-box h4 a:hover, .colorskin-4 .tline-box h4 a:hover,.colorskin-4 .blog-post a:hover, .colorskin-4 .blog-author span, .colorskin-4 .blog-line p a:hover,.colorskin-4 a.readmore:hover,.colorskin-4 .jcarousel-next:hover, .colorskin-4 .jcarousel-next:active, .colorskin-4 .jcarousel-prev:hover, .colorskin-4 .jcarousel-prev:active,.colorskin-4 .latestposts-two .blog-line p.blog-cat a,.colorskin-4 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-4 .latestposts-two .blog-line:hover h4 a,.colorskin-4 a.readmore:hover:after
+{ color: #f1c40f; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-4 .icon-box4:hover i, .colorskin-4 .icon-box5:hover i, .colorskin-4 .icon-box7:hover i, .colorskin-4 .icon-box8:hover i, .colorskin-4 .icon-box11:hover i, .colorskin-4 .icon-box13 a.magicmore:hover, .colorskin-4 #nav > li.current:after, .colorskin-4 #footer .side-list li:hover img, .colorskin-4 .toggle-top-area .side-list li:hover img, .colorskin-4 #footer .tagcloud a:hover, .colorskin-4 .toggle-top-area .tagcloud a:hover, .colorskin-4 .side-list li:hover img, .colorskin-4 .widget_shopping_cart .sidebar-line, .colorskin-4 .widget_shopping_cart_content p.buttons a.button, .colorskin-4 .single .woo-template span.onsale, .colorskin-4 .woocommerce ul.products li.product .onsale, .colorskin-4 .our-process-item:hover i, .colorskin-4 .woocommerce a.button.alt, .colorskin-4 .woocommerce button.button.alt, .colorskin-4 .woocommerce input.button.alt, .colorskin-4 .woocommerce #respond input#submit.alt, .colorskin-4 .postmetadata h6.blog-views span, .colorskin-4 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-4 .pin-ecxt2 .col1-3 span, .colorskin-4 .comments-number-x span,
+.colorskin-4 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-4 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-4 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-4 .icon-box1 i, .colorskin-4 .icon-box1 img
+{ background-color: #f1c40f; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-4 nav.primary .portfolioFilters a.selected, .colorskin-4 nav.primary ul li a:active, .colorskin-4 nav.primary .portfolioFilters a:hover, .colorskin-4 .zoomex2 a:hover i, .colorskin-4 .widget h4.subtitle:after, .colorskin-4 a.readmore:hover, .colorskin-4 .tagcloud a:hover, .colorskin-4 #footer.litex .tagcloud a:hover, .colorskin-4 .icon-box8:hover i, .colorskin-4 .icon-box11:hover i, .colorskin-4 .our-team:hover img, .colorskin-4 .jcarousel-next:hover, .colorskin-4 .jcarousel-next:active, .colorskin-4 .jcarousel-prev:hover, .colorskin-4 .jcarousel-prev:active, .colorskin-4 .our-process-item:hover i, .colorskin-4 .woocommerce-info
+{ border-color:#f1c40f; }
+
+
+
+
+
+/* == Color Skin 5 #(Pink)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-5 .icon-box3:hover i,.colorskin-5 #nav ul li a:hover, .colorskin-5 #nav li.current ul li a:hover, .colorskin-5 .nav-wrap2 #nav ul li a:hover, .colorskin-5 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-5 #nav ul li.current > a, .colorskin-5 #nav ul li:hover > a,.colorskin-5 nav.primary .portfolioFilters a.selected, .colorskin-5 nav.primary ul li a:active,.colorskin-5 .zoomex2 a:hover i,.colorskin-5 .pin-box h4 a:hover, .colorskin-5 .tline-box h4 a:hover,.colorskin-5 .blog-post a:hover, .colorskin-5 .blog-author span, .colorskin-5 .blog-line p a:hover,.colorskin-5 a.readmore:hover,.colorskin-5 .jcarousel-next:hover, .colorskin-5 .jcarousel-next:active, .colorskin-5 .jcarousel-prev:hover, .colorskin-5 .jcarousel-prev:active,.colorskin-5 .latestposts-two .blog-line p.blog-cat a,.colorskin-5 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-5 .latestposts-two .blog-line:hover h4 a,.colorskin-5 a.readmore:hover:after
+{ color: #e64883; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-5 .icon-box4:hover i, .colorskin-5 .icon-box5:hover i, .colorskin-5 .icon-box7:hover i, .colorskin-5 .icon-box8:hover i, .colorskin-5 .icon-box11:hover i, .colorskin-5 .icon-box13 a.magicmore:hover, .colorskin-5 #nav > li.current:after, .colorskin-5 #footer .side-list li:hover img, .colorskin-5 .toggle-top-area .side-list li:hover img, .colorskin-5 #footer .tagcloud a:hover, .colorskin-5 .toggle-top-area .tagcloud a:hover, .colorskin-5 .side-list li:hover img, .colorskin-5 .widget_shopping_cart .sidebar-line, .colorskin-5 .widget_shopping_cart_content p.buttons a.button, .colorskin-5 .single .woo-template span.onsale, .colorskin-5 .woocommerce ul.products li.product .onsale, .colorskin-5 .our-process-item:hover i, .colorskin-5 .woocommerce a.button.alt, .colorskin-5 .woocommerce button.button.alt, .colorskin-5 .woocommerce input.button.alt, .colorskin-5 .woocommerce #respond input#submit.alt, .colorskin-5 .postmetadata h6.blog-views span, .colorskin-5 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-5 .pin-ecxt2 .col1-3 span, .colorskin-5 .comments-number-x span,
+.colorskin-5 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-5 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-5 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-5 .icon-box1 i, .colorskin-5 .icon-box1 img
+{ background-color: #e64883; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-5 nav.primary .portfolioFilters a.selected, .colorskin-5 nav.primary ul li a:active, .colorskin-5 nav.primary .portfolioFilters a:hover, .colorskin-5 .zoomex2 a:hover i, .colorskin-5 .widget h4.subtitle:after, .colorskin-5 a.readmore:hover, .colorskin-5 .tagcloud a:hover, .colorskin-5 #footer.litex .tagcloud a:hover, .colorskin-5 .icon-box8:hover i, .colorskin-5 .icon-box11:hover i, .colorskin-5 .our-team:hover img, .colorskin-5 .jcarousel-next:hover, .colorskin-5 .jcarousel-next:active, .colorskin-5 .jcarousel-prev:hover, .colorskin-5 .jcarousel-prev:active, .colorskin-5 .our-process-item:hover i, .colorskin-5 .woocommerce-info
+{ border-color:#e64883; }
+
+
+
+
+
+/* == Color Skin 6 #(Green)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-6 .icon-box3:hover i,.colorskin-6 #nav ul li a:hover, .colorskin-6 #nav li.current ul li a:hover, .colorskin-6 .nav-wrap2 #nav ul li a:hover, .colorskin-6 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-6 #nav ul li.current > a, .colorskin-6 #nav ul li:hover > a,.colorskin-6 nav.primary .portfolioFilters a.selected, .colorskin-6 nav.primary ul li a:active,.colorskin-6 .zoomex2 a:hover i,.colorskin-6 .pin-box h4 a:hover, .colorskin-6 .tline-box h4 a:hover,.colorskin-6 .blog-post a:hover, .colorskin-6 .blog-author span, .colorskin-6 .blog-line p a:hover,.colorskin-6 a.readmore:hover,.colorskin-6 .jcarousel-next:hover, .colorskin-6 .jcarousel-next:active, .colorskin-6 .jcarousel-prev:hover, .colorskin-6 .jcarousel-prev:active,.colorskin-6 .latestposts-two .blog-line p.blog-cat a,.colorskin-6 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-6 .latestposts-two .blog-line:hover h4 a,.colorskin-6 a.readmore:hover:after
+{ color: #45ab48; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-6 .icon-box4:hover i, .colorskin-6 .icon-box5:hover i, .colorskin-6 .icon-box7:hover i, .colorskin-6 .icon-box8:hover i, .colorskin-6 .icon-box11:hover i, .colorskin-6 .icon-box13 a.magicmore:hover, .colorskin-6 #nav > li.current:after, .colorskin-6 #footer .side-list li:hover img, .colorskin-6 .toggle-top-area .side-list li:hover img, .colorskin-6 #footer .tagcloud a:hover, .colorskin-6 .toggle-top-area .tagcloud a:hover, .colorskin-6 .side-list li:hover img, .colorskin-6 .widget_shopping_cart .sidebar-line, .colorskin-6 .widget_shopping_cart_content p.buttons a.button, .colorskin-6 .single .woo-template span.onsale, .colorskin-6 .woocommerce ul.products li.product .onsale, .colorskin-6 .our-process-item:hover i, .colorskin-6 .woocommerce a.button.alt, .colorskin-6 .woocommerce button.button.alt, .colorskin-6 .woocommerce input.button.alt, .colorskin-6 .woocommerce #respond input#submit.alt, .colorskin-6 .postmetadata h6.blog-views span, .colorskin-6 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-6 .pin-ecxt2 .col1-3 span, .colorskin-6 .comments-number-x span,
+.colorskin-6 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-6 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-6 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-6 .icon-box1 i, .colorskin-6 .icon-box1 img
+{ background-color: #45ab48; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-6 nav.primary .portfolioFilters a.selected, .colorskin-6 nav.primary ul li a:active, .colorskin-6 nav.primary .portfolioFilters a:hover, .colorskin-6 .zoomex2 a:hover i, .colorskin-6 .widget h4.subtitle:after, .colorskin-6 a.readmore:hover, .colorskin-6 .tagcloud a:hover, .colorskin-6 #footer.litex .tagcloud a:hover, .colorskin-6 .icon-box8:hover i, .colorskin-6 .icon-box11:hover i, .colorskin-6 .our-team:hover img, .colorskin-6 .jcarousel-next:hover, .colorskin-6 .jcarousel-next:active, .colorskin-6 .jcarousel-prev:hover, .colorskin-6 .jcarousel-prev:active, .colorskin-6 .our-process-item:hover i, .colorskin-6 .woocommerce-info
+{ border-color:#45ab48; }
+
+
+
+
+
+
+
+/* == Color Skin 7 #(Orchid)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-7 .icon-box3:hover i,.colorskin-7 #nav ul li a:hover, .colorskin-7 #nav li.current ul li a:hover, .colorskin-7 .nav-wrap2 #nav ul li a:hover, .colorskin-7 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-7 #nav ul li.current > a, .colorskin-7 #nav ul li:hover > a,.colorskin-7 nav.primary .portfolioFilters a.selected, .colorskin-7 nav.primary ul li a:active,.colorskin-7 .zoomex2 a:hover i,.colorskin-7 .pin-box h4 a:hover, .colorskin-7 .tline-box h4 a:hover,.colorskin-7 .blog-post a:hover, .colorskin-7 .blog-author span, .colorskin-7 .blog-line p a:hover,.colorskin-7 a.readmore:hover,.colorskin-7 .jcarousel-next:hover, .colorskin-7 .jcarousel-next:active, .colorskin-7 .jcarousel-prev:hover, .colorskin-7 .jcarousel-prev:active,.colorskin-7 .latestposts-two .blog-line p.blog-cat a,.colorskin-7 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-7 .latestposts-two .blog-line:hover h4 a,.colorskin-7 a.readmore:hover:after
+{ color: #9661ab; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-7 .icon-box4:hover i, .colorskin-7 .icon-box5:hover i, .colorskin-7 .icon-box7:hover i, .colorskin-7 .icon-box8:hover i, .colorskin-7 .icon-box11:hover i, .colorskin-7 .icon-box13 a.magicmore:hover, .colorskin-7 #nav > li.current:after, .colorskin-7 #footer .side-list li:hover img, .colorskin-7 .toggle-top-area .side-list li:hover img, .colorskin-7 #footer .tagcloud a:hover, .colorskin-7 .toggle-top-area .tagcloud a:hover, .colorskin-7 .side-list li:hover img, .colorskin-7 .widget_shopping_cart .sidebar-line, .colorskin-7 .widget_shopping_cart_content p.buttons a.button, .colorskin-7 .single .woo-template span.onsale, .colorskin-7 .woocommerce ul.products li.product .onsale, .colorskin-7 .our-process-item:hover i, .colorskin-7 .woocommerce a.button.alt, .colorskin-7 .woocommerce button.button.alt, .colorskin-7 .woocommerce input.button.alt, .colorskin-7 .woocommerce #respond input#submit.alt, .colorskin-7 .postmetadata h6.blog-views span, .colorskin-7 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-7 .pin-ecxt2 .col1-3 span, .colorskin-7 .comments-number-x span,
+.colorskin-7 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-7 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-7 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-7 .icon-box1 i, .colorskin-7 .icon-box1 img
+{ background-color: #9661ab; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-7 nav.primary .portfolioFilters a.selected, .colorskin-7 nav.primary ul li a:active, .colorskin-7 nav.primary .portfolioFilters a:hover, .colorskin-7 .zoomex2 a:hover i, .colorskin-7 .widget h4.subtitle:after, .colorskin-7 a.readmore:hover, .colorskin-7 .tagcloud a:hover, .colorskin-7 #footer.litex .tagcloud a:hover, .colorskin-7 .icon-box8:hover i, .colorskin-7 .icon-box11:hover i, .colorskin-7 .our-team:hover img, .colorskin-7 .jcarousel-next:hover, .colorskin-7 .jcarousel-next:active, .colorskin-7 .jcarousel-prev:hover, .colorskin-7 .jcarousel-prev:active, .colorskin-7 .our-process-item:hover i, .colorskin-7 .woocommerce-info
+{ border-color: #9661ab; }
+
+
+
+
+
+
+/* == Color Skin 8 #(Jade)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-8 .icon-box3:hover i,.colorskin-8 #nav ul li a:hover, .colorskin-8 #nav li.current ul li a:hover, .colorskin-8 .nav-wrap2 #nav ul li a:hover, .colorskin-8 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-8 #nav ul li.current > a, .colorskin-8 #nav ul li:hover > a,.colorskin-8 nav.primary .portfolioFilters a.selected, .colorskin-8 nav.primary ul li a:active,.colorskin-8 .zoomex2 a:hover i,.colorskin-8 .pin-box h4 a:hover, .colorskin-8 .tline-box h4 a:hover,.colorskin-8 .blog-post a:hover, .colorskin-8 .blog-author span, .colorskin-8 .blog-line p a:hover,.colorskin-8 a.readmore:hover,.colorskin-8 .jcarousel-next:hover, .colorskin-8 .jcarousel-next:active, .colorskin-8 .jcarousel-prev:hover, .colorskin-8 .jcarousel-prev:active,.colorskin-8 .latestposts-two .blog-line p.blog-cat a,.colorskin-8 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-8 .latestposts-two .blog-line:hover h4 a,.colorskin-8 a.readmore:hover:after
+{ color: #0aad80; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-8 .icon-box4:hover i, .colorskin-8 .icon-box5:hover i, .colorskin-8 .icon-box7:hover i, .colorskin-8 .icon-box8:hover i, .colorskin-8 .icon-box11:hover i, .colorskin-8 .icon-box13 a.magicmore:hover, .colorskin-8 #nav > li.current:after, .colorskin-8 #footer .side-list li:hover img, .colorskin-8 .toggle-top-area .side-list li:hover img, .colorskin-8 #footer .tagcloud a:hover, .colorskin-8 .toggle-top-area .tagcloud a:hover, .colorskin-8 .side-list li:hover img, .colorskin-8 .widget_shopping_cart .sidebar-line, .colorskin-8 .widget_shopping_cart_content p.buttons a.button, .colorskin-8 .single .woo-template span.onsale, .colorskin-8 .woocommerce ul.products li.product .onsale, .colorskin-8 .our-process-item:hover i, .colorskin-8 .woocommerce a.button.alt, .colorskin-8 .woocommerce button.button.alt, .colorskin-8 .woocommerce input.button.alt, .colorskin-8 .woocommerce #respond input#submit.alt, .colorskin-8 .postmetadata h6.blog-views span, .colorskin-8 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-8 .pin-ecxt2 .col1-3 span, .colorskin-8 .comments-number-x span,
+.colorskin-8 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-8 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-8 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-8 .icon-box1 i, .colorskin-8 .icon-box1 img
+{ background-color: #0aad80; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-8 nav.primary .portfolioFilters a.selected, .colorskin-8 nav.primary ul li a:active, .colorskin-8 nav.primary .portfolioFilters a:hover, .colorskin-8 .zoomex2 a:hover i, .colorskin-8 .widget h4.subtitle:after, .colorskin-8 a.readmore:hover, .colorskin-8 .tagcloud a:hover, .colorskin-8 #footer.litex .tagcloud a:hover, .colorskin-8 .icon-box8:hover i, .colorskin-8 .icon-box11:hover i, .colorskin-8 .our-team:hover img, .colorskin-8 .jcarousel-next:hover, .colorskin-8 .jcarousel-next:active, .colorskin-8 .jcarousel-prev:hover, .colorskin-8 .jcarousel-prev:active, .colorskin-8 .our-process-item:hover i, .colorskin-8 .woocommerce-info
+{ border-color: #0aad80; }
+
+
+
+
+
+
+/* == Color Skin 9 #(SkyBlue)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-9 .icon-box3:hover i,.colorskin-9 #nav ul li a:hover, .colorskin-9 #nav li.current ul li a:hover, .colorskin-9 .nav-wrap2 #nav ul li a:hover, .colorskin-9 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-9 #nav ul li.current > a, .colorskin-9 #nav ul li:hover > a,.colorskin-9 nav.primary .portfolioFilters a.selected, .colorskin-9 nav.primary ul li a:active,.colorskin-9 .zoomex2 a:hover i,.colorskin-9 .pin-box h4 a:hover, .colorskin-9 .tline-box h4 a:hover,.colorskin-9 .blog-post a:hover, .colorskin-9 .blog-author span, .colorskin-9 .blog-line p a:hover,.colorskin-9 a.readmore:hover,.colorskin-9 .jcarousel-next:hover, .colorskin-9 .jcarousel-next:active, .colorskin-9 .jcarousel-prev:hover, .colorskin-9 .jcarousel-prev:active,.colorskin-9 .latestposts-two .blog-line p.blog-cat a,.colorskin-9 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-9 .latestposts-two .blog-line:hover h4 a,.colorskin-9 a.readmore:hover:after
+{ color: #0ab1f0; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-9 .icon-box4:hover i, .colorskin-9 .icon-box5:hover i, .colorskin-9 .icon-box7:hover i, .colorskin-9 .icon-box8:hover i, .colorskin-9 .icon-box11:hover i, .colorskin-9 .icon-box13 a.magicmore:hover, .colorskin-9 #nav > li.current:after, .colorskin-9 #footer .side-list li:hover img, .colorskin-9 .toggle-top-area .side-list li:hover img, .colorskin-9 #footer .tagcloud a:hover, .colorskin-9 .toggle-top-area .tagcloud a:hover, .colorskin-9 .side-list li:hover img, .colorskin-9 .widget_shopping_cart .sidebar-line, .colorskin-9 .widget_shopping_cart_content p.buttons a.button, .colorskin-9 .single .woo-template span.onsale, .colorskin-9 .woocommerce ul.products li.product .onsale, .colorskin-9 .our-process-item:hover i, .colorskin-9 .woocommerce a.button.alt, .colorskin-9 .woocommerce button.button.alt, .colorskin-9 .woocommerce input.button.alt, .colorskin-9 .woocommerce #respond input#submit.alt, .colorskin-9 .postmetadata h6.blog-views span, .colorskin-9 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-9 .pin-ecxt2 .col1-3 span, .colorskin-9 .comments-number-x span,
+.colorskin-9 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-9 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-9 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-9 .icon-box1 i, .colorskin-9 .icon-box1 img
+{ background-color: #0ab1f0; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-9 nav.primary .portfolioFilters a.selected, .colorskin-9 nav.primary ul li a:active, .colorskin-9 nav.primary .portfolioFilters a:hover, .colorskin-9 .zoomex2 a:hover i, .colorskin-9 .widget h4.subtitle:after, .colorskin-9 a.readmore:hover, .colorskin-9 .tagcloud a:hover, .colorskin-9 #footer.litex .tagcloud a:hover, .colorskin-9 .icon-box8:hover i, .colorskin-9 .icon-box11:hover i, .colorskin-9 .our-team:hover img, .colorskin-9 .jcarousel-next:hover, .colorskin-9 .jcarousel-next:active, .colorskin-9 .jcarousel-prev:hover, .colorskin-9 .jcarousel-prev:active, .colorskin-9 .our-process-item:hover i, .colorskin-9 .woocommerce-info
+{ border-color:#0ab1f0; }
+
+
+
+
+
+
+/* == Color Skin 10 #(Orange)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-10 .icon-box3:hover i,.colorskin-10 #nav ul li a:hover, .colorskin-10 #nav li.current ul li a:hover, .colorskin-10 .nav-wrap2 #nav ul li a:hover, .colorskin-10 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-10 #nav ul li.current > a, .colorskin-10 #nav ul li:hover > a,.colorskin-10 nav.primary .portfolioFilters a.selected, .colorskin-10 nav.primary ul li a:active,.colorskin-10 .zoomex2 a:hover i,.colorskin-10 .pin-box h4 a:hover, .colorskin-10 .tline-box h4 a:hover,.colorskin-10 .blog-post a:hover, .colorskin-10 .blog-author span, .colorskin-10 .blog-line p a:hover,.colorskin-10 a.readmore:hover,.colorskin-10 .jcarousel-next:hover, .colorskin-10 .jcarousel-next:active, .colorskin-10 .jcarousel-prev:hover, .colorskin-10 .jcarousel-prev:active,.colorskin-10 .latestposts-two .blog-line p.blog-cat a,.colorskin-10 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-10 .latestposts-two .blog-line:hover h4 a,.colorskin-10 a.readmore:hover:after
+{ color: #ff5a00; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-10 .icon-box4:hover i, .colorskin-10 .icon-box5:hover i, .colorskin-10 .icon-box7:hover i, .colorskin-10 .icon-box8:hover i, .colorskin-10 .icon-box11:hover i, .colorskin-10 .icon-box13 a.magicmore:hover, .colorskin-10 #nav > li.current:after, .colorskin-10 #footer .side-list li:hover img, .colorskin-10 .toggle-top-area .side-list li:hover img, .colorskin-10 #footer .tagcloud a:hover, .colorskin-10 .toggle-top-area .tagcloud a:hover, .colorskin-10 .side-list li:hover img, .colorskin-10 .widget_shopping_cart .sidebar-line, .colorskin-10 .widget_shopping_cart_content p.buttons a.button, .colorskin-10 .single .woo-template span.onsale, .colorskin-10 .woocommerce ul.products li.product .onsale, .colorskin-10 .our-process-item:hover i, .colorskin-10 .woocommerce a.button.alt, .colorskin-10 .woocommerce button.button.alt, .colorskin-10 .woocommerce input.button.alt, .colorskin-10 .woocommerce #respond input#submit.alt, .colorskin-10 .postmetadata h6.blog-views span, .colorskin-10 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-10 .pin-ecxt2 .col1-3 span, .colorskin-10 .comments-number-x span,
+.colorskin-10 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-10 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-10 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-10 .icon-box1 i, .colorskin-10 .icon-box1 img
+{ background-color: #ff5a00; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-10 nav.primary .portfolioFilters a.selected, .colorskin-10 nav.primary ul li a:active, .colorskin-10 nav.primary .portfolioFilters a:hover, .colorskin-10 .zoomex2 a:hover i, .colorskin-10 .widget h4.subtitle:after, .colorskin-10 a.readmore:hover, .colorskin-10 .tagcloud a:hover, .colorskin-10 #footer.litex .tagcloud a:hover, .colorskin-10 .icon-box8:hover i, .colorskin-10 .icon-box11:hover i, .colorskin-10 .our-team:hover img, .colorskin-10 .jcarousel-next:hover, .colorskin-10 .jcarousel-next:active, .colorskin-10 .jcarousel-prev:hover, .colorskin-10 .jcarousel-prev:active, .colorskin-10 .our-process-item:hover i, .colorskin-10 .woocommerce-info
+{ border-color:#ff5a00; }
+
+
+
+
+
+
+/* == Color Skin 11 #(SplashOrange)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-11 .icon-box3:hover i,.colorskin-11 #nav ul li a:hover, .colorskin-11 #nav li.current ul li a:hover, .colorskin-11 .nav-wrap2 #nav ul li a:hover, .colorskin-11 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-11 #nav ul li.current > a, .colorskin-11 #nav ul li:hover > a,.colorskin-11 nav.primary .portfolioFilters a.selected, .colorskin-11 nav.primary ul li a:active,.colorskin-11 .zoomex2 a:hover i,.colorskin-11 .pin-box h4 a:hover, .colorskin-11 .tline-box h4 a:hover,.colorskin-11 .blog-post a:hover, .colorskin-11 .blog-author span, .colorskin-11 .blog-line p a:hover,.colorskin-11 a.readmore:hover,.colorskin-11 .jcarousel-next:hover, .colorskin-11 .jcarousel-next:active, .colorskin-11 .jcarousel-prev:hover, .colorskin-11 .jcarousel-prev:active,.colorskin-11 .latestposts-two .blog-line p.blog-cat a,.colorskin-11 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-11 .latestposts-two .blog-line:hover h4 a,.colorskin-11 a.readmore:hover:after
+{ color: #c3512f; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-11 .icon-box4:hover i, .colorskin-11 .icon-box5:hover i, .colorskin-11 .icon-box7:hover i, .colorskin-11 .icon-box8:hover i, .colorskin-11 .icon-box11:hover i, .colorskin-11 .icon-box13 a.magicmore:hover, .colorskin-11 #nav > li.current:after, .colorskin-11 #footer .side-list li:hover img, .colorskin-11 .toggle-top-area .side-list li:hover img, .colorskin-11 #footer .tagcloud a:hover, .colorskin-11 .toggle-top-area .tagcloud a:hover, .colorskin-11 .side-list li:hover img, .colorskin-11 .widget_shopping_cart .sidebar-line, .colorskin-11 .widget_shopping_cart_content p.buttons a.button, .colorskin-11 .single .woo-template span.onsale, .colorskin-11 .woocommerce ul.products li.product .onsale, .colorskin-11 .our-process-item:hover i, .colorskin-11 .woocommerce a.button.alt, .colorskin-11 .woocommerce button.button.alt, .colorskin-11 .woocommerce input.button.alt, .colorskin-11 .woocommerce #respond input#submit.alt, .colorskin-11 .postmetadata h6.blog-views span, .colorskin-11 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-11 .pin-ecxt2 .col1-3 span, .colorskin-11 .comments-number-x span,
+.colorskin-11 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-11 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-11 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-11 .icon-box1 i, .colorskin-11 .icon-box1 img
+{ background-color: #c3512f; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-11 nav.primary .portfolioFilters a.selected, .colorskin-11 nav.primary ul li a:active, .colorskin-11 nav.primary .portfolioFilters a:hover, .colorskin-11 .zoomex2 a:hover i, .colorskin-11 .widget h4.subtitle:after, .colorskin-11 a.readmore:hover, .colorskin-11 .tagcloud a:hover, .colorskin-11 #footer.litex .tagcloud a:hover, .colorskin-11 .icon-box8:hover i, .colorskin-11 .icon-box11:hover i, .colorskin-11 .our-team:hover img, .colorskin-11 .jcarousel-next:hover, .colorskin-11 .jcarousel-next:active, .colorskin-11 .jcarousel-prev:hover, .colorskin-11 .jcarousel-prev:active, .colorskin-11 .our-process-item:hover i, .colorskin-11 .woocommerce-info
+{ border-color:#c3512f; }
+
+
+
+
+
+
+/* == Color Skin 12 #(DarkBlue)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-12 .icon-box3:hover i,.colorskin-12 #nav ul li a:hover, .colorskin-12 #nav li.current ul li a:hover, .colorskin-12 .nav-wrap2 #nav ul li a:hover, .colorskin-12 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-12 #nav ul li.current > a, .colorskin-12 #nav ul li:hover > a,.colorskin-12 nav.primary .portfolioFilters a.selected, .colorskin-12 nav.primary ul li a:active,.colorskin-12 .zoomex2 a:hover i,.colorskin-12 .pin-box h4 a:hover, .colorskin-12 .tline-box h4 a:hover,.colorskin-12 .blog-post a:hover, .colorskin-12 .blog-author span, .colorskin-12 .blog-line p a:hover,.colorskin-12 a.readmore:hover,.colorskin-12 .jcarousel-next:hover, .colorskin-12 .jcarousel-next:active, .colorskin-12 .jcarousel-prev:hover, .colorskin-12 .jcarousel-prev:active,.colorskin-12 .latestposts-two .blog-line p.blog-cat a,.colorskin-12 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-12 .latestposts-two .blog-line:hover h4 a,.colorskin-12 a.readmore:hover:after
+{ color: #55606e; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-12 .icon-box4:hover i, .colorskin-12 .icon-box5:hover i, .colorskin-12 .icon-box7:hover i, .colorskin-12 .icon-box8:hover i, .colorskin-12 .icon-box11:hover i, .colorskin-12 .icon-box13 a.magicmore:hover, .colorskin-12 #nav > li.current:after, .colorskin-12 #footer .side-list li:hover img, .colorskin-12 .toggle-top-area .side-list li:hover img, .colorskin-12 #footer .tagcloud a:hover, .colorskin-12 .toggle-top-area .tagcloud a:hover, .colorskin-12 .side-list li:hover img, .colorskin-12 .widget_shopping_cart .sidebar-line, .colorskin-12 .widget_shopping_cart_content p.buttons a.button, .colorskin-12 .single .woo-template span.onsale, .colorskin-12 .woocommerce ul.products li.product .onsale, .colorskin-12 .our-process-item:hover i, .colorskin-12 .woocommerce a.button.alt, .colorskin-12 .woocommerce button.button.alt, .colorskin-12 .woocommerce input.button.alt, .colorskin-12 .woocommerce #respond input#submit.alt, .colorskin-12 .postmetadata h6.blog-views span, .colorskin-12 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-12 .pin-ecxt2 .col1-3 span, .colorskin-12 .comments-number-x span,
+.colorskin-12 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-12 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-12 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-12 .icon-box1 i, .colorskin-12 .icon-box1 img
+{ background-color: #55606e; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-12 nav.primary .portfolioFilters a.selected, .colorskin-12 nav.primary ul li a:active, .colorskin-12 nav.primary .portfolioFilters a:hover, .colorskin-12 .zoomex2 a:hover i, .colorskin-12 .widget h4.subtitle:after, .colorskin-12 a.readmore:hover, .colorskin-12 .tagcloud a:hover, .colorskin-12 #footer.litex .tagcloud a:hover, .colorskin-12 .icon-box8:hover i, .colorskin-12 .icon-box11:hover i, .colorskin-12 .our-team:hover img, .colorskin-12 .jcarousel-next:hover, .colorskin-12 .jcarousel-next:active, .colorskin-12 .jcarousel-prev:hover, .colorskin-12 .jcarousel-prev:active, .colorskin-12 .our-process-item:hover i, .colorskin-12 .woocommerce-info
+{ border-color:#55606e; }
+
+
+
+
+
+
+/* == Color Skin 13 #(CoralPink)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-13 .icon-box3:hover i,.colorskin-13 #nav ul li a:hover, .colorskin-13 #nav li.current ul li a:hover, .colorskin-13 .nav-wrap2 #nav ul li a:hover, .colorskin-13 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-13 #nav ul li.current > a, .colorskin-13 #nav ul li:hover > a,.colorskin-13 nav.primary .portfolioFilters a.selected, .colorskin-13 nav.primary ul li a:active,.colorskin-13 .zoomex2 a:hover i,.colorskin-13 .pin-box h4 a:hover, .colorskin-13 .tline-box h4 a:hover,.colorskin-13 .blog-post a:hover, .colorskin-13 .blog-author span, .colorskin-13 .blog-line p a:hover,.colorskin-13 a.readmore:hover,.colorskin-13 .jcarousel-next:hover, .colorskin-13 .jcarousel-next:active, .colorskin-13 .jcarousel-prev:hover, .colorskin-13 .jcarousel-prev:active,.colorskin-13 .latestposts-two .blog-line p.blog-cat a,.colorskin-13 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-13 .latestposts-two .blog-line:hover h4 a,.colorskin-13 a.readmore:hover:after
+{ color: #fe8178; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-13 .icon-box4:hover i, .colorskin-13 .icon-box5:hover i, .colorskin-13 .icon-box7:hover i, .colorskin-13 .icon-box8:hover i, .colorskin-13 .icon-box11:hover i, .colorskin-13 .icon-box13 a.magicmore:hover, .colorskin-13 #nav > li.current:after, .colorskin-13 #footer .side-list li:hover img, .colorskin-13 .toggle-top-area .side-list li:hover img, .colorskin-13 #footer .tagcloud a:hover, .colorskin-13 .toggle-top-area .tagcloud a:hover, .colorskin-13 .side-list li:hover img, .colorskin-13 .widget_shopping_cart .sidebar-line, .colorskin-13 .widget_shopping_cart_content p.buttons a.button, .colorskin-13 .single .woo-template span.onsale, .colorskin-13 .woocommerce ul.products li.product .onsale, .colorskin-13 .our-process-item:hover i, .colorskin-13 .woocommerce a.button.alt, .colorskin-13 .woocommerce button.button.alt, .colorskin-13 .woocommerce input.button.alt, .colorskin-13 .woocommerce #respond input#submit.alt, .colorskin-13 .postmetadata h6.blog-views span, .colorskin-13 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-13 .pin-ecxt2 .col1-3 span, .colorskin-13 .comments-number-x span,
+.colorskin-13 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-13 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-13 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-13 .icon-box1 i, .colorskin-13 .icon-box1 img
+{ background-color: #fe8178; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-13 nav.primary .portfolioFilters a.selected, .colorskin-13 nav.primary ul li a:active, .colorskin-13 nav.primary .portfolioFilters a:hover, .colorskin-13 .zoomex2 a:hover i, .colorskin-13 .widget h4.subtitle:after, .colorskin-13 a.readmore:hover, .colorskin-13 .tagcloud a:hover, .colorskin-13 #footer.litex .tagcloud a:hover, .colorskin-13 .icon-box8:hover i, .colorskin-13 .icon-box11:hover i, .colorskin-13 .our-team:hover img, .colorskin-13 .jcarousel-next:hover, .colorskin-13 .jcarousel-next:active, .colorskin-13 .jcarousel-prev:hover, .colorskin-13 .jcarousel-prev:active, .colorskin-13 .our-process-item:hover i, .colorskin-13 .woocommerce-info
+{ border-color:#fe8178; }
+
+
+
+
+
+/* == Color Skin 14 #(Brown)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-14 .icon-box3:hover i,.colorskin-14 #nav ul li a:hover, .colorskin-14 #nav li.current ul li a:hover, .colorskin-14 .nav-wrap2 #nav ul li a:hover, .colorskin-14 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-14 #nav ul li.current > a, .colorskin-14 #nav ul li:hover > a,.colorskin-14 nav.primary .portfolioFilters a.selected, .colorskin-14 nav.primary ul li a:active,.colorskin-14 .zoomex2 a:hover i,.colorskin-14 .pin-box h4 a:hover, .colorskin-14 .tline-box h4 a:hover,.colorskin-14 .blog-post a:hover, .colorskin-14 .blog-author span, .colorskin-14 .blog-line p a:hover,.colorskin-14 a.readmore:hover,.colorskin-14 .jcarousel-next:hover, .colorskin-14 .jcarousel-next:active, .colorskin-14 .jcarousel-prev:hover, .colorskin-14 .jcarousel-prev:active,.colorskin-14 .latestposts-two .blog-line p.blog-cat a,.colorskin-14 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-14 .latestposts-two .blog-line:hover h4 a,.colorskin-14 a.readmore:hover:after
+{ color: #7c6853; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-14 .icon-box4:hover i, .colorskin-14 .icon-box5:hover i, .colorskin-14 .icon-box7:hover i, .colorskin-14 .icon-box8:hover i, .colorskin-14 .icon-box11:hover i, .colorskin-14 .icon-box13 a.magicmore:hover, .colorskin-14 #nav > li.current:after, .colorskin-14 #footer .side-list li:hover img, .colorskin-14 .toggle-top-area .side-list li:hover img, .colorskin-14 #footer .tagcloud a:hover, .colorskin-14 .toggle-top-area .tagcloud a:hover, .colorskin-14 .side-list li:hover img, .colorskin-14 .widget_shopping_cart .sidebar-line, .colorskin-14 .widget_shopping_cart_content p.buttons a.button, .colorskin-14 .single .woo-template span.onsale, .colorskin-14 .woocommerce ul.products li.product .onsale, .colorskin-14 .our-process-item:hover i, .colorskin-14 .woocommerce a.button.alt, .colorskin-14 .woocommerce button.button.alt, .colorskin-14 .woocommerce input.button.alt, .colorskin-14 .woocommerce #respond input#submit.alt, .colorskin-14 .postmetadata h6.blog-views span, .colorskin-14 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-14 .pin-ecxt2 .col1-3 span, .colorskin-14 .comments-number-x span,
+.colorskin-14 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-14 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-14 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-14 .icon-box1 i, .colorskin-14 .icon-box1 img
+{ background-color: #7c6853; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-14 nav.primary .portfolioFilters a.selected, .colorskin-14 nav.primary ul li a:active, .colorskin-14 nav.primary .portfolioFilters a:hover, .colorskin-14 .zoomex2 a:hover i, .colorskin-14 .widget h4.subtitle:after, .colorskin-14 a.readmore:hover, .colorskin-14 .tagcloud a:hover, .colorskin-14 #footer.litex .tagcloud a:hover, .colorskin-14 .icon-box8:hover i, .colorskin-14 .icon-box11:hover i, .colorskin-14 .our-team:hover img, .colorskin-14 .jcarousel-next:hover, .colorskin-14 .jcarousel-next:active, .colorskin-14 .jcarousel-prev:hover, .colorskin-14 .jcarousel-prev:active, .colorskin-14 .our-process-item:hover i, .colorskin-14 .woocommerce-info
+{ border-color:#7c6853; }
+
+
+
+
+
+
+
+/* == Color Skin 15 #(GreenYellow)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-15 .icon-box3:hover i,.colorskin-15 #nav ul li a:hover, .colorskin-15 #nav li.current ul li a:hover, .colorskin-15 .nav-wrap2 #nav ul li a:hover, .colorskin-15 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-15 #nav ul li.current > a, .colorskin-15 #nav ul li:hover > a,.colorskin-15 nav.primary .portfolioFilters a.selected, .colorskin-15 nav.primary ul li a:active,.colorskin-15 .zoomex2 a:hover i,.colorskin-15 .pin-box h4 a:hover, .colorskin-15 .tline-box h4 a:hover,.colorskin-15 .blog-post a:hover, .colorskin-15 .blog-author span, .colorskin-15 .blog-line p a:hover,.colorskin-15 a.readmore:hover,.colorskin-15 .jcarousel-next:hover, .colorskin-15 .jcarousel-next:active, .colorskin-15 .jcarousel-prev:hover, .colorskin-15 .jcarousel-prev:active,.colorskin-15 .latestposts-two .blog-line p.blog-cat a,.colorskin-15 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-15 .latestposts-two .blog-line:hover h4 a,.colorskin-15 a.readmore:hover:after
+{ color: #bed431; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-15 .icon-box4:hover i, .colorskin-15 .icon-box5:hover i, .colorskin-15 .icon-box7:hover i, .colorskin-15 .icon-box8:hover i, .colorskin-15 .icon-box11:hover i, .colorskin-15 .icon-box13 a.magicmore:hover, .colorskin-15 #nav > li.current:after, .colorskin-15 #footer .side-list li:hover img, .colorskin-15 .toggle-top-area .side-list li:hover img, .colorskin-15 #footer .tagcloud a:hover, .colorskin-15 .toggle-top-area .tagcloud a:hover, .colorskin-15 .side-list li:hover img, .colorskin-15 .widget_shopping_cart .sidebar-line, .colorskin-15 .widget_shopping_cart_content p.buttons a.button, .colorskin-15 .single .woo-template span.onsale, .colorskin-15 .woocommerce ul.products li.product .onsale, .colorskin-15 .our-process-item:hover i, .colorskin-15 .woocommerce a.button.alt, .colorskin-15 .woocommerce button.button.alt, .colorskin-15 .woocommerce input.button.alt, .colorskin-15 .woocommerce #respond input#submit.alt, .colorskin-15 .postmetadata h6.blog-views span, .colorskin-15 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-15 .pin-ecxt2 .col1-3 span, .colorskin-15 .comments-number-x span,
+.colorskin-15 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-15 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-15 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-15 .icon-box1 i, .colorskin-15 .icon-box1 img
+{ background-color: #bed431; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-15 nav.primary .portfolioFilters a.selected, .colorskin-15 nav.primary ul li a:active, .colorskin-15 nav.primary .portfolioFilters a:hover, .colorskin-15 .zoomex2 a:hover i, .colorskin-15 .widget h4.subtitle:after, .colorskin-15 a.readmore:hover, .colorskin-15 .tagcloud a:hover, .colorskin-15 #footer.litex .tagcloud a:hover, .colorskin-15 .icon-box8:hover i, .colorskin-15 .icon-box11:hover i, .colorskin-15 .our-team:hover img, .colorskin-15 .jcarousel-next:hover, .colorskin-15 .jcarousel-next:active, .colorskin-15 .jcarousel-prev:hover, .colorskin-15 .jcarousel-prev:active, .colorskin-15 .our-process-item:hover i, .colorskin-15 .woocommerce-info
+{ border-color:#bed431; }
+
+
+
+
+
+
+/* == Color Skin 16 #(SplashBlue)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-16 .icon-box3:hover i,.colorskin-16 #nav ul li a:hover, .colorskin-16 #nav li.current ul li a:hover, .colorskin-16 .nav-wrap2 #nav ul li a:hover, .colorskin-16 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-16 #nav ul li.current > a, .colorskin-16 #nav ul li:hover > a,.colorskin-16 nav.primary .portfolioFilters a.selected, .colorskin-16 nav.primary ul li a:active,.colorskin-16 .zoomex2 a:hover i,.colorskin-16 .pin-box h4 a:hover, .colorskin-16 .tline-box h4 a:hover,.colorskin-16 .blog-post a:hover, .colorskin-16 .blog-author span, .colorskin-16 .blog-line p a:hover,.colorskin-16 a.readmore:hover,.colorskin-16 .jcarousel-next:hover, .colorskin-16 .jcarousel-next:active, .colorskin-16 .jcarousel-prev:hover, .colorskin-16 .jcarousel-prev:active,.colorskin-16 .latestposts-two .blog-line p.blog-cat a,.colorskin-16 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-16 .latestposts-two .blog-line:hover h4 a,.colorskin-16 a.readmore:hover:after
+{ color: #2d5c88; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-16 .icon-box4:hover i, .colorskin-16 .icon-box5:hover i, .colorskin-16 .icon-box7:hover i, .colorskin-16 .icon-box8:hover i, .colorskin-16 .icon-box11:hover i, .colorskin-16 .icon-box13 a.magicmore:hover, .colorskin-16 #nav > li.current:after, .colorskin-16 #footer .side-list li:hover img, .colorskin-16 .toggle-top-area .side-list li:hover img, .colorskin-16 #footer .tagcloud a:hover, .colorskin-16 .toggle-top-area .tagcloud a:hover, .colorskin-16 .side-list li:hover img, .colorskin-16 .widget_shopping_cart .sidebar-line, .colorskin-16 .widget_shopping_cart_content p.buttons a.button, .colorskin-16 .single .woo-template span.onsale, .colorskin-16 .woocommerce ul.products li.product .onsale, .colorskin-16 .our-process-item:hover i, .colorskin-16 .woocommerce a.button.alt, .colorskin-16 .woocommerce button.button.alt, .colorskin-16 .woocommerce input.button.alt, .colorskin-16 .woocommerce #respond input#submit.alt, .colorskin-16 .postmetadata h6.blog-views span, .colorskin-16 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-16 .pin-ecxt2 .col1-3 span, .colorskin-16 .comments-number-x span,
+.colorskin-16 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-16 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-16 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-16 .icon-box1 i, .colorskin-16 .icon-box1 img
+{ background-color: #2d5c88; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-16 nav.primary .portfolioFilters a.selected, .colorskin-16 nav.primary ul li a:active, .colorskin-16 nav.primary .portfolioFilters a:hover, .colorskin-16 .zoomex2 a:hover i, .colorskin-16 .widget h4.subtitle:after, .colorskin-16 a.readmore:hover, .colorskin-16 .tagcloud a:hover, .colorskin-16 #footer.litex .tagcloud a:hover, .colorskin-16 .icon-box8:hover i, .colorskin-16 .icon-box11:hover i, .colorskin-16 .our-team:hover img, .colorskin-16 .jcarousel-next:hover, .colorskin-16 .jcarousel-next:active, .colorskin-16 .jcarousel-prev:hover, .colorskin-16 .jcarousel-prev:active, .colorskin-16 .our-process-item:hover i, .colorskin-16 .woocommerce-info
+{ border-color:#2d5c88; }
+
+
+
+
+
+
+/* == Color Skin 17 #(Gray)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-17 .icon-box3:hover i,.colorskin-17 #nav ul li a:hover, .colorskin-17 #nav li.current ul li a:hover, .colorskin-17 .nav-wrap2 #nav ul li a:hover, .colorskin-17 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-17 #nav ul li.current > a, .colorskin-17 #nav ul li:hover > a,.colorskin-17 nav.primary .portfolioFilters a.selected, .colorskin-17 nav.primary ul li a:active,.colorskin-17 .zoomex2 a:hover i,.colorskin-17 .pin-box h4 a:hover, .colorskin-17 .tline-box h4 a:hover,.colorskin-17 .blog-post a:hover, .colorskin-17 .blog-author span, .colorskin-17 .blog-line p a:hover,.colorskin-17 a.readmore:hover,.colorskin-17 .jcarousel-next:hover, .colorskin-17 .jcarousel-next:active, .colorskin-17 .jcarousel-prev:hover, .colorskin-17 .jcarousel-prev:active,.colorskin-17 .latestposts-two .blog-line p.blog-cat a,.colorskin-17 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-17 .latestposts-two .blog-line:hover h4 a,.colorskin-17 a.readmore:hover:after
+{ color: #333; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-17 .icon-box4:hover i, .colorskin-17 .icon-box5:hover i, .colorskin-17 .icon-box7:hover i, .colorskin-17 .icon-box8:hover i, .colorskin-17 .icon-box11:hover i, .colorskin-17 .icon-box13 a.magicmore:hover, .colorskin-17 #nav > li.current:after, .colorskin-17 #footer .side-list li:hover img, .colorskin-17 .toggle-top-area .side-list li:hover img, .colorskin-17 #footer .tagcloud a:hover, .colorskin-17 .toggle-top-area .tagcloud a:hover, .colorskin-17 .side-list li:hover img, .colorskin-17 .widget_shopping_cart .sidebar-line, .colorskin-17 .widget_shopping_cart_content p.buttons a.button, .colorskin-17 .single .woo-template span.onsale, .colorskin-17 .woocommerce ul.products li.product .onsale, .colorskin-17 .our-process-item:hover i, .colorskin-17 .woocommerce a.button.alt, .colorskin-17 .woocommerce button.button.alt, .colorskin-17 .woocommerce input.button.alt, .colorskin-17 .woocommerce #respond input#submit.alt, .colorskin-17 .postmetadata h6.blog-views span, .colorskin-17 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-17 .pin-ecxt2 .col1-3 span, .colorskin-17 .comments-number-x span,
+.colorskin-17 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-17 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-17 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-17 .icon-box1 i, .colorskin-17 .icon-box1 img
+{ background-color: #333; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-17 nav.primary .portfolioFilters a.selected, .colorskin-17 nav.primary ul li a:active, .colorskin-17 nav.primary .portfolioFilters a:hover, .colorskin-17 .zoomex2 a:hover i, .colorskin-17 .widget h4.subtitle:after, .colorskin-17 a.readmore:hover, .colorskin-17 .tagcloud a:hover, .colorskin-17 #footer.litex .tagcloud a:hover, .colorskin-17 .icon-box8:hover i, .colorskin-17 .icon-box11:hover i, .colorskin-17 .our-team:hover img, .colorskin-17 .jcarousel-next:hover, .colorskin-17 .jcarousel-next:active, .colorskin-17 .jcarousel-prev:hover, .colorskin-17 .jcarousel-prev:active, .colorskin-17 .our-process-item:hover i, .colorskin-17 .woocommerce-info
+{ border-color:#333; }
+
+
+
+
+
+
+/* == Color Skin 18 #(Cyan)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-18 .icon-box3:hover i,.colorskin-18 #nav ul li a:hover, .colorskin-18 #nav li.current ul li a:hover, .colorskin-18 .nav-wrap2 #nav ul li a:hover, .colorskin-18 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-18 #nav ul li.current > a, .colorskin-18 #nav ul li:hover > a,.colorskin-18 nav.primary .portfolioFilters a.selected, .colorskin-18 nav.primary ul li a:active,.colorskin-18 .zoomex2 a:hover i,.colorskin-18 .pin-box h4 a:hover, .colorskin-18 .tline-box h4 a:hover,.colorskin-18 .blog-post a:hover, .colorskin-18 .blog-author span, .colorskin-18 .blog-line p a:hover,.colorskin-18 a.readmore:hover,.colorskin-18 .jcarousel-next:hover, .colorskin-18 .jcarousel-next:active, .colorskin-18 .jcarousel-prev:hover, .colorskin-18 .jcarousel-prev:active,.colorskin-18 .latestposts-two .blog-line p.blog-cat a,.colorskin-18 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-18 .latestposts-two .blog-line:hover h4 a,.colorskin-18 a.readmore:hover:after
+{ color: #2997ab; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-18 .icon-box4:hover i, .colorskin-18 .icon-box5:hover i, .colorskin-18 .icon-box7:hover i, .colorskin-18 .icon-box8:hover i, .colorskin-18 .icon-box11:hover i, .colorskin-18 .icon-box13 a.magicmore:hover, .colorskin-18 #nav > li.current:after, .colorskin-18 #footer .side-list li:hover img, .colorskin-18 .toggle-top-area .side-list li:hover img, .colorskin-18 #footer .tagcloud a:hover, .colorskin-18 .toggle-top-area .tagcloud a:hover, .colorskin-18 .side-list li:hover img, .colorskin-18 .widget_shopping_cart .sidebar-line, .colorskin-18 .widget_shopping_cart_content p.buttons a.button, .colorskin-18 .single .woo-template span.onsale, .colorskin-18 .woocommerce ul.products li.product .onsale, .colorskin-18 .our-process-item:hover i, .colorskin-18 .woocommerce a.button.alt, .colorskin-18 .woocommerce button.button.alt, .colorskin-18 .woocommerce input.button.alt, .colorskin-18 .woocommerce #respond input#submit.alt, .colorskin-18 .postmetadata h6.blog-views span, .colorskin-18 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-18 .pin-ecxt2 .col1-3 span, .colorskin-18 .comments-number-x span,
+.colorskin-18 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-18 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-18 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-18 .icon-box1 i, .colorskin-18 .icon-box1 img
+{ background-color: #2997ab; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-18 nav.primary .portfolioFilters a.selected, .colorskin-18 nav.primary ul li a:active, .colorskin-18 nav.primary .portfolioFilters a:hover, .colorskin-18 .zoomex2 a:hover i, .colorskin-18 .widget h4.subtitle:after, .colorskin-18 a.readmore:hover, .colorskin-18 .tagcloud a:hover, .colorskin-18 #footer.litex .tagcloud a:hover, .colorskin-18 .icon-box8:hover i, .colorskin-18 .icon-box11:hover i, .colorskin-18 .our-team:hover img, .colorskin-18 .jcarousel-next:hover, .colorskin-18 .jcarousel-next:active, .colorskin-18 .jcarousel-prev:hover, .colorskin-18 .jcarousel-prev:active, .colorskin-18 .our-process-item:hover i, .colorskin-18 .woocommerce-info
+{ border-color:#2997ab; }
+
+
+
+
+
+
+/* == Color Skin 19 #(Vine)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-19 .icon-box3:hover i,.colorskin-19 #nav ul li a:hover, .colorskin-19 #nav li.current ul li a:hover, .colorskin-19 .nav-wrap2 #nav ul li a:hover, .colorskin-19 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-19 #nav ul li.current > a, .colorskin-19 #nav ul li:hover > a,.colorskin-19 nav.primary .portfolioFilters a.selected, .colorskin-19 nav.primary ul li a:active,.colorskin-19 .zoomex2 a:hover i,.colorskin-19 .pin-box h4 a:hover, .colorskin-19 .tline-box h4 a:hover,.colorskin-19 .blog-post a:hover, .colorskin-19 .blog-author span, .colorskin-19 .blog-line p a:hover,.colorskin-19 a.readmore:hover,.colorskin-19 .jcarousel-next:hover, .colorskin-19 .jcarousel-next:active, .colorskin-19 .jcarousel-prev:hover, .colorskin-19 .jcarousel-prev:active,.colorskin-19 .latestposts-two .blog-line p.blog-cat a,.colorskin-19 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-19 .latestposts-two .blog-line:hover h4 a,.colorskin-19 a.readmore:hover:after
+{ color: #734854; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-19 .icon-box4:hover i, .colorskin-19 .icon-box5:hover i, .colorskin-19 .icon-box7:hover i, .colorskin-19 .icon-box8:hover i, .colorskin-19 .icon-box11:hover i, .colorskin-19 .icon-box13 a.magicmore:hover, .colorskin-19 #nav > li.current:after, .colorskin-19 #footer .side-list li:hover img, .colorskin-19 .toggle-top-area .side-list li:hover img, .colorskin-19 #footer .tagcloud a:hover, .colorskin-19 .toggle-top-area .tagcloud a:hover, .colorskin-19 .side-list li:hover img, .colorskin-19 .widget_shopping_cart .sidebar-line, .colorskin-19 .widget_shopping_cart_content p.buttons a.button, .colorskin-19 .single .woo-template span.onsale, .colorskin-19 .woocommerce ul.products li.product .onsale, .colorskin-19 .our-process-item:hover i, .colorskin-19 .woocommerce a.button.alt, .colorskin-19 .woocommerce button.button.alt, .colorskin-19 .woocommerce input.button.alt, .colorskin-19 .woocommerce #respond input#submit.alt, .colorskin-19 .postmetadata h6.blog-views span, .colorskin-19 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-19 .pin-ecxt2 .col1-3 span, .colorskin-19 .comments-number-x span,
+.colorskin-19 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-19 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-19 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-19 .icon-box1 i, .colorskin-19 .icon-box1 img
+{ background-color: #734854; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-19 nav.primary .portfolioFilters a.selected, .colorskin-19 nav.primary ul li a:active, .colorskin-19 nav.primary .portfolioFilters a:hover, .colorskin-19 .zoomex2 a:hover i, .colorskin-19 .widget h4.subtitle:after, .colorskin-19 a.readmore:hover, .colorskin-19 .tagcloud a:hover, .colorskin-19 #footer.litex .tagcloud a:hover, .colorskin-19 .icon-box8:hover i, .colorskin-19 .icon-box11:hover i, .colorskin-19 .our-team:hover img, .colorskin-19 .jcarousel-next:hover, .colorskin-19 .jcarousel-next:active, .colorskin-19 .jcarousel-prev:hover, .colorskin-19 .jcarousel-prev:active, .colorskin-19 .our-process-item:hover i, .colorskin-19 .woocommerce-info
+{ border-color:#734854; }
+
+
+
+
+
+/* == Color Skin 20 #(SplashRed)#
+=================================== */
+
+/* == TextColors
+---------------- */
+.colorskin-20 .icon-box3:hover i,.colorskin-20 #nav ul li a:hover, .colorskin-20 #nav li.current ul li a:hover, .colorskin-20 .nav-wrap2 #nav ul li a:hover, .colorskin-20 .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-20 #nav ul li.current > a, .colorskin-20 #nav ul li:hover > a,.colorskin-20 nav.primary .portfolioFilters a.selected, .colorskin-20 nav.primary ul li a:active,.colorskin-20 .zoomex2 a:hover i,.colorskin-20 .pin-box h4 a:hover, .colorskin-20 .tline-box h4 a:hover,.colorskin-20 .blog-post a:hover, .colorskin-20 .blog-author span, .colorskin-20 .blog-line p a:hover,.colorskin-20 a.readmore:hover,.colorskin-20 .jcarousel-next:hover, .colorskin-20 .jcarousel-next:active, .colorskin-20 .jcarousel-prev:hover, .colorskin-20 .jcarousel-prev:active,.colorskin-20 .latestposts-two .blog-line p.blog-cat a,.colorskin-20 .latestposts-two .blog-line:hover .img-hover:before,.colorskin-20 .latestposts-two .blog-line:hover h4 a,.colorskin-20 a.readmore:hover:after
+{ color: #a81010; }
+
+
+/* == Backgrounds
+----------------- */
+.colorskin-20 .icon-box4:hover i, .colorskin-20 .icon-box5:hover i, .colorskin-20 .icon-box7:hover i, .colorskin-20 .icon-box8:hover i, .colorskin-20 .icon-box11:hover i, .colorskin-20 .icon-box13 a.magicmore:hover, .colorskin-20 #nav > li.current:after, .colorskin-20 #footer .side-list li:hover img, .colorskin-20 .toggle-top-area .side-list li:hover img, .colorskin-20 #footer .tagcloud a:hover, .colorskin-20 .toggle-top-area .tagcloud a:hover, .colorskin-20 .side-list li:hover img, .colorskin-20 .widget_shopping_cart .sidebar-line, .colorskin-20 .widget_shopping_cart_content p.buttons a.button, .colorskin-20 .single .woo-template span.onsale, .colorskin-20 .woocommerce ul.products li.product .onsale, .colorskin-20 .our-process-item:hover i, .colorskin-20 .woocommerce a.button.alt, .colorskin-20 .woocommerce button.button.alt, .colorskin-20 .woocommerce input.button.alt, .colorskin-20 .woocommerce #respond input#submit.alt, .colorskin-20 .postmetadata h6.blog-views span, .colorskin-20 .blog-post.blgtyp2 .comments-number-x2 span, .colorskin-20 .pin-ecxt2 .col1-3 span, .colorskin-20 .comments-number-x span,
+.colorskin-20 #header.sm-rgt-mn #menu-icon span.mn-ext1,.colorskin-20 #header.sm-rgt-mn #menu-icon span.mn-ext2,.colorskin-20 #header.sm-rgt-mn #menu-icon span.mn-ext3, .colorskin-20 .icon-box1 i, .colorskin-20 .icon-box1 img
+{ background-color: #a81010; }
+
+
+/* == BorderColors
+------------------ */
+.colorskin-20 nav.primary .portfolioFilters a.selected, .colorskin-20 nav.primary ul li a:active, .colorskin-20 nav.primary .portfolioFilters a:hover, .colorskin-20 .zoomex2 a:hover i, .colorskin-20 .widget h4.subtitle:after, .colorskin-20 a.readmore:hover, .colorskin-20 .tagcloud a:hover, .colorskin-20 #footer.litex .tagcloud a:hover, .colorskin-20 .icon-box8:hover i, .colorskin-20 .icon-box11:hover i, .colorskin-20 .our-team:hover img, .colorskin-20 .jcarousel-next:hover, .colorskin-20 .jcarousel-next:active, .colorskin-20 .jcarousel-prev:hover, .colorskin-20 .jcarousel-prev:active, .colorskin-20 .our-process-item:hover i, .colorskin-20 .woocommerce-info
+{ border-color:#a81010; }
+

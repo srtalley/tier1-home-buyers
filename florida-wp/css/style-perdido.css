@@ -1,0 +1,86 @@
+/*----------------------------------
+
+	Theme Name: Florida
+	----------------------
+		
+	/* #Perdido Template
+	================================================== */
+	
+	h1,h2,h3,h4,h5,h6 { font-family:'Raleway', 'Roboto', Helvetica, Arial, sans-serif;}
+	h3 strong, h4 strong, h5 strong, h6 strong { font-weight:bold;}
+	.top-bar { background:#f7f7f7; border:none; padding:0;}
+	#headline { background:#fff; border-top: 1px solid #f9f9f9; border-bottom: 1px solid #f9f9f9;} 
+	#headline h3 { font-size:24px; font-weight:300; letter-spacing:5px; margin-bottom:12px; text-transform:uppercase;}
+	#header, .transparent-header-w #header { border-bottom:none;}
+	#search-form { margin-top:37px;} 
+	a.search-form-icon i { font-size:12px;}
+	.logo-wrap .logo { width:200px; height:100px; position:relative;}
+	.col-md-12 .logo-wrap .logo { width: auto; height: auto; }
+	.logo-wrap .logo img { max-height: 100%; position: absolute; left: 0; top: 0; bottom: 0; margin: auto;}	
+	.col-md-12 .logo-wrap .logo img { position: static;}
+	.nav-wrap1 { height:100px;} 
+	.woo-cart-header { top:27px;}
+	 @media only screen and (min-width: 961px) { 
+	#nav > li > a { font-family:'Raleway',  Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:1px; padding:0 15px; line-height:100px;}
+	#nav > li > a:hover { background:none; color:#fd7c7d;}
+	.transparent-header-w.t-dark-w #header #nav > li:hover > a { background:none; color:#fd7c7d;}
+	#nav > li.current:after { display: block; float: left; content: ""; width: 100%; height: 4px; background: #fd7c7d; bottom: 0px; margin-top: -4px;} 
+	.transparent-header-w.t-dark-w #header #nav > li.current:after { display:none;}
+	.transparent-header-w.t-dark-w #header #nav > li.current a, #nav > li.current a { color:#fd7c7d;}
+	#header.sticky #nav-wrap, #header.sticky.hi-header #nav-wrap { border-bottom:none; box-shadow:0 0 3px rgba(0,0,0,0.21); height:60px;}
+	}
+	.top-bar .socialfollow a { background:none; padding:9px; border-radius:0; margin:0;}
+	.top-bar .socialfollow a.facebook:hover { background: #3b5996; color:#fff;}
+	.top-bar .socialfollow a.twitter:hover { background: #00acee; color:#fff;}
+	.top-bar .socialfollow a.vimeo:hover { background: #0dadd6; color:#fff;}
+	.top-bar .socialfollow a.dribble:hover { background: #d53e68; color:#fff;}
+	.top-bar .socialfollow a.youtube:hover { background: #cb322c; color:#fff;}
+	.top-bar .socialfollow a.pinterest:hover { background: #cb2027; color:#fff;}
+	.top-bar .socialfollow a.google:hover { background: #c3391c; color:#fff;}
+	.top-bar .socialfollow a.linkedin:hover { background: #0073b2; color:#fff;}
+	.top-bar .socialfollow a.rss:hover { background: #f29a1d; color:#fff;}
+	.top-bar .socialfollow a.instagram:hover { background: #457399; color:#fff;}
+	.top-bar .socialfollow a.other-social:hover { background: #ff5d5e; color:#fff;}
+	.top-bar .socialfollow a:hover i {color:#fff !important;}
+
+	
+	.portfolio-pin .pin-box h4, .zoomex2 h6 { font-family:'Raleway',  Helvetica, Arial, sans-serif;} 
+	.zoomex2 { background:rgba(240,74,82,.92);} 
+	.icon-box8:hover i { background: #fd7c7d; border-color:#fd7c7d;}
+	#our-clients.crsl.our-clients li { border:1px solid #eee; padding:20px; padding-top:28px;} 
+	#our-clients.crsl.our-clients li:hover { border-color:#e1e1e1;} 
+	.jcarousel-next:after, .jcarousel-prev:after { border:1px solid;}	
+	h2.subtitle { font-size:27px; letter-spacing:3px;}
+	.our-clients-wrap.crsl:after { display:none;}
+	.contact-form { padding:0; border:none;}
+	
+	.testimonials-slider-w .testimonial-content h4 { line-height:1.5;}
+	.testimonials-slider-w .testimonial-content h4 q { font-size: 20px; font-style: normal; line-height: 1.1; font-family:'Roboto Slab',serif; }
+	.max-title5 * { font-size:21px; font-family:'Raleway',  Helvetica, Arial, sans-serif;} 
+	
+	#footer { background: #101012; border:none; padding-top:30px;}
+	.footbot { background: #0a0a0b;}
+	.footer-in h5.subtitle { border: none; box-shadow: none; font-size: 21px; font-weight: bold; color: #fff; font-family:'Roboto Slab',sans-serif;}	
+	.button,
+	button, a.button {
+	  position:relative;
+	  border: none;
+	  border-radius:1px;
+	  color: #fff;
+	  display: inline-block;
+	  font-size: 15px;
+	  line-height:1;
+	  font-weight: 600;
+	  cursor: pointer;
+	  line-height: 1;
+	  padding: 14px 20px;
+	   }	   
+	 .button.red { background: #fd7c7d;}
+	
+	
+	 @media only screen and (max-width: 767px) { 
+	 .ls-slide h3, .ls-slide h4 { display:none !important;} .ls-slide a { font-size:12px !important; padding:5px 8px !important;}
+	  }
+	
+	
+/* -------- end ----------- */	

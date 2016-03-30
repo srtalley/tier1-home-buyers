@@ -1,0 +1,98 @@
+/*----------------------------------
+
+	Theme Name: Florida
+	----------------------
+		
+	/* #Manatee Template
+	================================================== */
+	
+	h1,h2,h3,h4,h5,h6 { font-family:'Domine', 'Roboto', Helvetica, Arial, sans-serif;}
+	h3 strong, h4 strong, h5 strong, h6 strong { font-weight:bold;}
+	p { font-size:16px;}
+	p.slog { font-size:18px;}
+	.our-team p { font-size:17px;}
+	.max-title3 * { font-family:'Domine', 'Roboto Slab', serif;}
+	.top-bar { background:#f7f7f7; border:none; padding:0;}
+	#headline { background:#fff; border-top: 1px solid #f9f9f9; border-bottom: 1px solid #f9f9f9;} 
+	#headline h3 { font-size:24px; font-weight:300; letter-spacing:5px; margin-bottom:12px; text-transform:uppercase;}
+	#header, .transparent-header-w #header { border-bottom:none;}
+	#search-form { margin-top:37px;} 
+	a.search-form-icon i { font-size:12px;}
+	.logo-wrap .logo { width:200px; height:100px; position:relative;}
+	.logo-wrap .logo img { max-height: 100%; position: absolute; left: 0; top: 0; bottom: 0; margin: auto;}	
+	.nav-wrap1 { height:100px;} 
+	
+	 @media only screen and (min-width: 961px) { 
+	#nav > li > a { font-family:'Josefin Sans',  Helvetica, Arial, sans-serif; font-size:16px; font-weight:600; text-transform:none; letter-spacing:1px; padding:0 15px; line-height:100px;}
+	#nav > li > a:hover { background:none; color:#57d939;}
+	.transparent-header-w.t-dark-w #header #nav > li:hover > a { background:none; color:#57d939;}
+	#nav > li.current:after, #nav > li.active:after { display: block; float: left; content: ""; width: 100%; height: 4px; background: #57d939; bottom: 0px; margin-top: -4px;}
+	#nav > li.active:after { margin-top:0;} 
+	#nav > li.active > a { color:#57d939;}
+	.transparent-header-w.t-dark-w #header #nav > li.current:after { display:none;}
+	.transparent-header-w.t-dark-w #header #nav > li.current a, #nav > li.current a { color:#57d939;}
+	}
+	
+	.top-bar .socialfollow a { background:none; padding:9px; border-radius:0; margin:0;}
+	.top-bar .socialfollow a.facebook:hover { background: #3b5996; color:#fff;}
+	.top-bar .socialfollow a.twitter:hover { background: #00acee; color:#fff;}
+	.top-bar .socialfollow a.vimeo:hover { background: #0dadd6; color:#fff;}
+	.top-bar .socialfollow a.dribble:hover { background: #d53e68; color:#fff;}
+	.top-bar .socialfollow a.youtube:hover { background: #cb322c; color:#fff;}
+	.top-bar .socialfollow a.pinterest:hover { background: #cb2027; color:#fff;}
+	.top-bar .socialfollow a.google:hover { background: #c3391c; color:#fff;}
+	.top-bar .socialfollow a.linkedin:hover { background: #0073b2; color:#fff;}
+	.top-bar .socialfollow a.rss:hover { background: #f29a1d; color:#fff;}
+	.top-bar .socialfollow a.instagram:hover { background: #457399; color:#fff;}
+	.top-bar .socialfollow a.other-social:hover { background: #ff5d5e; color:#fff;}
+	.top-bar .socialfollow a:hover i {color:#fff !important;}
+
+	
+	.portfolio-pin .pin-box h4, .zoomex2 h6 { font-family:'Josefin Sans',  Helvetica, Arial, sans-serif;} 
+	.latest-works { background:#f9f9f9; padding-top:10px;}
+	nav.primary .portfolioFilters a:hover {border-color:#57d939;}
+	nav.primary .portfolioFilters a.selected, nav.primary ul li a:active, .zoomex2 a:hover i { color:#57d939; border-color:#57d939;}
+	#our-clients.crsl.our-clients li { border:1px solid #eee; padding:20px; padding-top:28px;} 
+	#our-clients.crsl.our-clients li:hover { border-color:#e1e1e1;} 
+	.jcarousel-next:after, .jcarousel-prev:after { border:1px solid;}
+	.latestposts-three h6.latest-b2-cat a, a.magicmore { color:#57d939;}	
+	a.magicmore:after, .our-team:hover img { border-color:#57d939;}
+	.w-pricing-table.featured .plan-title, #scroll-top a:hover, .contact-form .btnSend:hover, .icon-box11:hover i { background-color:#57d939;}
+	.w-pricing-table.featured .plan-price, .contact-form .btnSend:hover, .icon-box11:hover i {  border-color:#5eca44;}
+	.w-pricing-table.featured .plan-price { background-color:#63e544;}
+	h2.subtitle { font-size:27px; letter-spacing:3px;}
+	.our-clients-wrap.crsl:after { display:none;}
+	.contact-form { padding:0; border:none;}
+	
+	.testimonials-slider-w .testimonial-content h4 { line-height:1.5;}
+	.testimonials-slider-w .testimonial-content h4 q,
+	.ts-di.testimonials-slider-w .testimonial-content h4 q { font-size: 19px; font-style: normal; line-height: 1.1; font-family:'Domine',serif; }
+	.testimonial-brand h5 em { font-size:13px; font-family:'Roboto',  Helvetica, Arial, sans-serif;}
+	.max-title5 * { font-size:21px; font-family:'Josefin Sans',  Helvetica, Arial, sans-serif;} 
+	
+	#footer { background: #101012; border:none; padding-top:30px;}
+	.footbot { background: #0a0a0b;}
+	.footer-in h5.subtitle { border: none; box-shadow: none; font-size: 21px; font-weight: bold; color: #fff; font-family:'Domine',sans-serif;}	
+	.button,
+	button, a.button {
+	  position:relative;
+	  border: none;
+	  border-radius:1px;
+	  color: #fff;
+	  display: inline-block;
+	  font-size: 15px;
+	  line-height:1;
+	  font-weight: 600;
+	  cursor: pointer;
+	  line-height: 1;
+	  padding: 14px 20px;
+	   }	   
+	 .button.red { background: #57d939;}
+	
+	
+	 @media only screen and (max-width: 767px) { 
+	 .ls-slide h3, .ls-slide h4 { display:none !important;} .ls-slide a { font-size:12px !important; padding:5px 8px !important;}
+	  }
+	
+	
+/* -------- end ----------- */	
