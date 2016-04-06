@@ -10,3 +10,620 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+/* Contact form7
+--------------- */
+
+/*.wpcf7 div {
+  margin: 5px 0;
+}*/
+.wpcf7 input[type="text"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea {
+  width:100%;
+  box-sizing:border-box;
+  min-width: 0;
+}
+
+.wpcf7 .wpcf7-form p{color: #72757f; font-size:15px;}
+.wpcf7 .wpcf7-form input[type="text"], .wpcf7 .wpcf7-form input[type="password"], .wpcf7 .wpcf7-form input[type="email"], .wpcf7 .wpcf7-form input[type="tel"], .wpcf7 .wpcf7-form textarea, .wpcf7 .wpcf7-form select, .wpcf7-form input[type="number"]{border: 1px solid #ccc; padding: 12px 6px; font-size: 14px;}
+.wpcf7 .wpcf7-form input[type="text"]:hover, .wpcf7 .wpcf7-form input[type="password"]:hover,.wpcf7 .wpcf7-form input[type="email"]:hover, .wpcf7-form input[type="tel"]:hover, .wpcf7 .wpcf7-form textarea:hover{border: 1px solid #5a8dd6;}
+.wpcf7 .wpcf7-form input[type="submit"], .wpcf7 .wpcf7-form input[type="reset"], .wpcf7 .wpcf7-form input[type="button"]{background-color:#00BCD4; padding: 5% 10%; margin-bottom:0; font-size:20px;}
+.wpcf7 .wpcf7-form input[type="submit"]:hover, .wpcf7 .wpcf7-form input[type="reset"]:hover, .wpcf7 .wpcf7-form input[type="button"]:hover{background-color:#60D0DE;}
+.wpcf7 .wpcf7-form input[type="text"],.wpcf7 .wpcf7-form  input[type="password"],.wpcf7 .wpcf7-form input[type="number"],.wpcf7 .wpcf7-form  input[type="email"], .wpcf7 .wpcf7-form input[type="tel"], .wpcf7 .wpcf7-form textarea,.wpcf7 .wpcf7-form  select,.wpcf7 .wpcf7-form  option{ margin:0 auto; width:100%; padding: 10px;}
+.wpcf7 .wpcf7-form h6{margin-top:25px; color:#df506e; font-size:20px; font-weight:bold; text-transform:lowercase;}
+
+.wpcf7 .wpcf7-form .radio-w {padding: 24px 0 0;}
+.wpcf7 .wpcf7-form .radio-w .wpcf7-list-item {margin-right: 100px;}
+.wpcf7 .wpcf7-form .one_half input[type="submit"] {width: 100%;margin-top: 16px;}
+.wpcf7 .wpcf7-form .one_half{margin-bottom:80px;}
+
+.dark.blox .wpcf7 .wpcf7-form input[type="text"],.dark.blox .wpcf7 .wpcf7-form  input[type="password"],.dark.blox .wpcf7 .wpcf7-form input[type="number"],.dark.blox .wpcf7 .wpcf7-form  input[type="email"], .dark.blox .wpcf7 .wpcf7-form input[type="tel"], .dark.blox .wpcf7 .wpcf7-form textarea,.dark.blox  .wpcf7 .wpcf7-form  select,.dark.blox  .wpcf7 .wpcf7-form  option{color:rgba(102, 102, 102, 1); margin:0 auto; width:100%; padding: 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.85);}
+.dark.blox .wpcf7 .wpcf7-form  input[type="text"]:focus,.dark.blox  .wpcf7 .wpcf7-form .rsvp-w1 input[type="password"]:focus,.dark.blox .wpcf7 .wpcf7-form input[type="number"]:focus,.dark.blox  .wpcf7 .wpcf7-form  input[type="email"]:focus, .dark.blox .wpcf7 .wpcf7-form  input[type="tel"]:focus, .dark.blox  .wpcf7 .wpcf7-form textarea:focus ,.dark.blox  .wpcf7 .wpcf7-form  select:focus ,.dark.blox  .wpcf7 .wpcf7-form  option:focus {background-color:#fff;}
+.dark.blox .wpcf7 .wpcf7-form  input[type="submit"]{border-radius: 30px; color: #fff; border: 1px solid #fff; background: transparent; padding: 14px 35px; margin-top: 10px;}
+.dark.blox .wpcf7 .wpcf7-form  input[type="submit"]:hover{background: #3498db;border: 1px solid #3498db;}
+.wpcf7 .ajax-loader {
+  display:none;
+}
+
+
+
+/* ----------- */
+div.wpcf7-validation-errors {
+  border: none;
+}
+div.wpcf7-response-output {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+span.wpcf7-not-valid-tip {
+  font-weight: bold;
+  background: #EAEAEA;
+  border-radius: 0 0 5px 5px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+/* General Column Sizes */
+
+.full {
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+}
+
+.half {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+
+.two-thirds {
+  box-sizing: border-box;
+  width: 66.6%;
+  float: left;
+}
+
+.one-third {
+  box-sizing: border-box;
+  width: 33.3%;
+  float: left;
+}
+
+.three-fourths {
+  box-sizing: border-box;
+  width: 75%;
+  float: left;
+}
+.one-fourth {
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+}
+
+
+
+/* Remove bottom margins that appear by default in the theme */
+
+
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+  margin-bottom: 0;
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+  margin-bottom: 0;
+}
+/* Allow vertical centering when this class is applied to VC rows */
+.flex-align-vertical {
+  display:flex;
+  align-items: center;
+}
+
+/* Header elements */
+/* Add space for logo */
+.logo {
+  padding-top:5px;
+}
+/* Site footer */
+.footer-navi {
+  font-family:inherit;
+  font-size:0.9em;
+}
+.footer-in {
+  padding-bottom:0; /* Remove bottom padding in the footer main theme */
+}
+
+/* Fix an error that was causing the logo to not shrink responsively in Firefox by adding the width */
+#header .img-logo-w1 {
+  width: auto;
+  max-height: 96px;
+  padding: 5px 0;
+}
+
+/* Move the Search form */
+/*#search-form {
+  position: absolute;
+  right: 10px;
+  bottom: 80px;
+  z-index:1;
+}*/
+#search-form {
+  margin: 59px 20px auto 0;
+  padding-left: 11px;
+}
+
+/* Position the menu elements a little higher */
+#nav a {
+  padding: 60px 16px 26px;
+}
+/*#nav ul
+margin-bottom
+
+#nav a padding-top is 70px*/
+/* Caption text */
+.top-links span {
+    color: #616161;
+    margin: 0;
+    font-size: 12px;
+}
+.top-links .topbar-phone {
+  color: #E46F62;
+}
+
+
+#footer.litex {
+  padding: 0;
+  background: #2d2d2d;
+  border-top: 8px solid #222;
+}
+#footer .footer-in{
+  padding-bottom: 10px;
+}
+/* Vertically center the footer by applying flex */
+/*#footer section.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}*/
+
+/* Style the contact us section in the footer */
+#footer.litex .widget h5.subtitle {
+  margin: 5px 0;
+  color: #DCDCDC;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+/* footer copyright spans */
+.footer-navi span{
+  display: block;
+  margin-top: -4%;
+  text-align: left;
+}
+.footer-navi span:nth-child(2) {
+  margin-top: -6%;
+}
+.contact-us-widget .one-third {
+  padding-left: 10px;
+}
+.contact-us-widget {
+  font-weight:bold;
+  color: #DEDEDE;
+  margin-bottom:10px;
+}
+#footer.litex .contact-us-widget  a {
+  color: #C5E3F3;;
+}
+
+/*#footer.litex .footbot, #footer.litex .footer-in h4, #footer.litex .footer-in hr {
+    border-color: #e0e0e0;
+    color: #5b5b5b;
+  }
+  #footer.litex .footbot {
+    background: #e9e9e9;
+}*/
+/* Social icons footer*/
+.socialfollow {
+  text-align: center;
+}
+.socialfollow a {
+  display: inline;
+  float: none;
+}
+
+/* Forms (not part of the standard WPCF7 from the theme */
+
+/* Flexbox forms */
+.tier1-contact {
+  /*float: left;*/
+  background-color: rgba(0, 0, 0, 0.498039);
+  border-radius: 15px;
+  padding: 20px;
+  /*width: 340px;*/
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.tier1-contact input[type=text], .tier1-contact input[type=phone],
+.tier1-contact input[type=email], .tier1-contact input[type=password],
+.tier1-contact label{
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Oswald', 'Roboto One', sans-serif;*/
+}
+.tier1-contact label{
+  font-size: 12px !important;
+}
+.flex-line {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.flex-line-center {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-line > div {
+  /*flex: 1 1 auto;*/
+  -webkit-box-flex: 1 1 auto;   /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 1 1 auto;       /* Safari 6.1+. iOS 7.1+, BB10 */
+  -ms-flex: 1 1 auto;          /* IE 10 */
+  flex: 1 1 auto;
+}
+
+.tier1-contact .form-row, .tier1-contact .flex-line {
+  padding-bottom: 5px;
+}
+/*.tier1-contact .zip-input, .tier1-contact .tel-input {
+  /*font-family: 'Roboto Mono', 'Consolas', monospace;*/
+/*}*/
+.tier1-contact .tel-input {
+  width: 118px !important;
+  min-width: 118px;
+}
+.tier1-contact .state-input {
+  width:60px !important;
+  min-width: 60px;
+}
+.tier1-contact .zip-input{
+  width:60px !important;
+  min-width: 60px;
+}
+
+.tier1-contact .form-title {
+  background-color: #EA7676;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 0;
+  border-radius:5px;
+  margin-bottom: 5px;
+}
+
+.tier1-contact .form-title h4  {
+  color: #FFF;
+
+  font-family: 'Oswald', 'Roboto One', sans-serif;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 400;
+  text-shadow: 0 -1px rgba(0, 0, 0, .29);
+}
+
+.tier1-contact .submit-input input[type=submit]{
+  width:100%;
+  font-size: 20px;
+  background-color: #00BCD4;
+  -webkit-appearance: none;
+}
+.tier1-contact .submit-input input[type=submit]:hover {
+    background-color: #60D0DE;
+}
+.tier1-contact .flex-line div:nth-child(2), .tier1-contact .flex-line div:nth-child(3){
+  margin-left:4px;
+}
+
+.tier1-contact .wpcf7-form-control-wrap {
+  width:100%;
+}
+/*.tier1-contact .one-third input[type=text]:nth-child(1), .tier1-contact .half input[type=text]:nth-child(1) {
+  margin-right: 1%;
+}
+.tier1-contact .one-third input[type=text], .tier1-contact .one-half input[type=text] {
+  width:400px;
+}
+.tier1-contact .one-third input[type=text]:nth-child(2), .tier1-contact .half input[type=text]:nth-child(2) {
+  margin-left: 1%;
+}*/
+/* InfieldLabels Modified CSS */
+.infield-label label {
+  z-index: 1;
+}
+.placeholder-focus label {
+  background-color: #FF9800;
+}
+.placeholder-focus label:after {
+  border-top: 5px solid #FF9800;
+}
+
+.label-light {
+  color: #FFF;
+}
+
+/* Home page contact form */
+#homepage-contact span.wpcf7-not-valid-tip {
+  position: absolute;
+  bottom: 8px;
+  left: 80px;
+  font-size:12px;
+}
+
+/* WP Members Form Elements */
+#wpmem_login input[type="submit"], #wpmem_reg input[type="submit"]{
+  background-color: #00BCD4;
+  -webkit-appearance: none;
+}
+
+#wpmem_login input[type="submit"]:hover, #wpmem_reg input[type="submit"]:hover{
+  background-color: #60D0DE;
+}
+/* Call to Action */
+
+.cta-image-text .wpb_wrapper {
+  background-color: rgba(0, 0, 0, 0.60);
+  padding: 3%;
+  border-radius: 15px;
+}
+
+.cta-image-text h1, .cta-image-text p, .cta-image-text h5 {
+  margin-bottom:0;
+
+}
+
+.cta-image-text, .header-sans-serif {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.header-serif {
+  font-family: 'Kreon', serif;
+  font-weight: 700;
+}
+
+/* IMPress Listings CSS */
+.listing-meta a, .listing-meta a:visited {
+    color: #e5554e;
+}
+.listing-meta a:hover {
+    color: #333;
+}
+
+.single-listing #sidebar, .post-type-archive-listing #sidebar {
+  /*display: none;*/
+}
+
+section#primary, div.content-area {
+    margin-top: 20px;
+}
+
+.listing p, #listing-details{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.625;
+  color: #101010;
+}
+.wplistings-single-listing table {
+  border: none;
+}
+.wplistings-single-listing td {
+  border: none;
+  border-top: 1px solid #ddd;
+}
+#listings-header-search {
+  background-color: #484548;
+  padding: 1% 1% 0 1%;
+  margin-bottom: 2%;
+}
+
+#listings-header-search h2 {
+  color: #F3F3F3;
+}
+
+#listings-header-search form {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+#listings-header-search select {
+  width: 38%;
+  margin-right: 2%;
+  float:left;
+}
+#listings-header-search .btn-search {
+  width: 20%;
+  float: right;
+  margin-top: -48px;
+}
+#listings-header-search .btn-search button {
+  font-size: 22px;
+  text-transform: uppercase !important;
+  background-color: #54B230;
+}
+#listings-header-search .btn-search button:hover {
+  background-color: #77CE56;
+}
+
+#listings-header-search .btn-search i {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  #header .container:first-child, .top-bar .container:first-child{
+    width: 1200px;
+  }
+} /* end @media only screen and (min-width: 1200px) */
+@media only screen and (min-width: 961px) {
+  .container.footer-in{
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+} /* end @media only screen and (min-width: 1200px)  */
+@media (min-width: 961px) and (max-width: 1200px) {
+
+  #header .container:first-child, .top-bar .container:first-child{
+    width: 100%;
+  }
+  /* Fix header logo width issues */
+  .logo-wrap {
+    width: 20%;
+  }
+  /* Fill the menu with the remaining space */
+  .nav-wrap1 {
+    width: 80%;
+  }
+
+  #nav a {
+    padding: 60px 11px 26px;
+  }
+} /* end @media (min-width: 961px) */
+
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+  #nav a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 961px) {
+  #listings-header-search select {
+    width: 48%;
+    float:left;
+  }
+  #listings-header-search .btn-search {
+    width: 80%;
+    text-align: center;
+    margin: 0 12% 0 8%;
+  }
+  #listings-header-search form {
+    padding-left: 2%;
+    padding-right: 0;
+  }
+} /* @media only screen and (max-width: 961px) */
+@media only screen and (max-width: 767px) {
+  /* Remove the flex box on small screens */
+  .flex-align-vertical {
+    display:block;
+  }
+    /*topbar settings */
+    .top-links .topbar-item {
+      display:inline-block;
+    }
+
+    .top-links .topbar-divider {
+      display: none;
+    }
+
+    /* hide the lefthand topbar */
+    .top-links.lftflot {
+      display:none;
+    }
+
+    /* remove the margin*/
+    .top-links, .top-links.rgtflot {
+      margin: 0;
+    }
+
+    /* The numbers are a link on mobile devices, so fix their appearance */
+    .top-links a {
+      font-size:inherit;
+      color:inherit;
+    }
+
+    /* get rid of the top bar background */
+    .top-bar{
+      height: auto;
+      padding: 0;
+      background: none;
+      background-color: #FAFAFA;
+    }
+} /* end @media only screen and (max-width: 767px) */
+@media only screen and (max-width: 479px) {
+  /* Override the main stylesheet that makes columns look weird */
+  .container {
+    width: auto;
+    padding: 0;
+  }
+  /* make the logo bigger and centered on mobile */
+  #header .logo-wrap, #header.sm-rgt-mn .logo-wrap .logo {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  #header.sm-rgt-mn .logo-wrap .logo img {
+    max-height: 90px;
+  }
+  #header.sm-rgt-mn {
+    height: 122px;
+  }
+  #header.sm-rgt-mn #menu-icon span.mn-ext1,
+  #header.sm-rgt-mn #menu-icon span.mn-ext2,
+  #header.sm-rgt-mn #menu-icon span.mn-ext3 {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+  }
+  #header.sm-rgt-mn #menu-icon {
+    margin-top: 45px;
+  }
+  /* menu position */
+  #header.sm-rgt-mn #nav {
+    top: 112px;
+  }
+  .tier1-contact {
+    /*width: 98%;*/
+    padding: 10px;
+  }
+
+  .tier1-contact .form-title h4  {
+    font-size: 18px;
+  }
+
+  .tier1-contact input {
+    padding: 10px 5px;
+  }
+
+  .tier1-contact label {
+    padding: 0 5px;
+  }
+  /* May need to add other classes here - removes padding around sides that messes up mobile appearance */
+
+  .wpb_row.full-row .container .vc_span12, .wpb_row.full-row .container .vc_col-sm-12,
+  .wpb_row.full-row .container .vc_col-md-12, .wpb_row.full-row .container .vc_col-lg-12
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+} /* end @media only screen and (max-width: 479px)  */
