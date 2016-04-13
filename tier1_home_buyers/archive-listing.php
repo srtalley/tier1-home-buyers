@@ -107,6 +107,14 @@ if (function_exists('equity')) {
 
 } else {
 
+	$umLoggedIn = false;
+	// Custom code to check the Ultimate Member plugin user role
+	um_fetch_user( get_current_user_id() );
+	//check for the slug of the membership type
+	if ( $ultimatemember->user->get_role() == 'listing-access' || $ultimatemember->user->get_role() == 'admin' ) {
+		$umLoggedIn = true;
+	}
+
 get_header();
 ?>
 
@@ -116,6 +124,7 @@ get_header();
 			<?php if ( have_posts() ) : ?>
 
 				<header class="archive-header">
+					<?php if ($umLoggedIn) //echo '<div class="logout-link"><a href="/logout">[ Log Out ]</a></div>'; ?>
 					<?php
 					$object = get_queried_object();
 
@@ -133,7 +142,12 @@ get_header();
 
 			<?php
 			//Only allow logged in members to view this
-			if( is_user_logged_in() ) {
+
+	  //  um_fetch_user( get_current_user_id() );
+		 //check for the slug of the membership type
+		//  if ( $ultimatemember->user->get_role() == 'listing-access' || $ultimatemember->user->get_role() == 'admin' )
+		 if ($umLoggedIn) {
+		 // Show this to paid customers
 				if ( is_active_sidebar( 'listings_header_widget' ) ) : ?>
 				 <div id="listings-header-search" class="primary-sidebar widget-area" role="complementary">
 					 <?php dynamic_sidebar( 'listings_header_widget' ); ?>
@@ -142,7 +156,8 @@ get_header();
 				archive_listing_loop();
 
 			} else {
-				echo do_shortcode('[vc_row][vc_column][vc_row_inner][vc_column_inner width="1/4"][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text][wpmem_form login redirect_to="/listings/"][/vc_column_text][/vc_column_inner][vc_column_inner width="1/4"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]');
+					//show the login form
+					echo do_shortcode('[ultimatemember form_id=232]');
 			}
 
 			else :
@@ -151,11 +166,9 @@ get_header();
 
 			endif;
 
-			?>
-
+			if ($umLoggedIn) echo '<div class="logout-link"><a href="/logout">[ Log Out ]</a></div>'; ?>
 		</div><!-- #content -->
 	</section><!-- #primary -->
-
 <?php
 get_footer();
 

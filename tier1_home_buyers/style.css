@@ -44,7 +44,14 @@
 .dark.blox .wpcf7 .wpcf7-form  input[type="submit"]{border-radius: 30px; color: #fff; border: 1px solid #fff; background: transparent; padding: 14px 35px; margin-top: 10px;}
 .dark.blox .wpcf7 .wpcf7-form  input[type="submit"]:hover{background: #3498db;border: 1px solid #3498db;}
 .wpcf7 .ajax-loader {
-  display:none;
+  /*display:none;*/
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 42px;
+  bottom: 46px;
+  background: #FFF;
+  border-radius: 10px;
 }
 
 
@@ -53,10 +60,8 @@
 div.wpcf7-validation-errors {
   border: none;
 }
-div.wpcf7-response-output {
-  margin: 0;
-  text-align: center;
-  padding: 0;
+.wpcf7-response-output {
+  display: none !important;
 }
 
 span.wpcf7-not-valid-tip {
@@ -132,6 +137,9 @@ span.wpcf7-not-valid-tip {
   font-family:inherit;
   font-size:0.9em;
 }
+.footer-navi a{
+  margin: 0;
+}
 .footer-in {
   padding-bottom:0; /* Remove bottom padding in the footer main theme */
 }
@@ -143,13 +151,7 @@ span.wpcf7-not-valid-tip {
   padding: 5px 0;
 }
 
-/* Move the Search form */
-/*#search-form {
-  position: absolute;
-  right: 10px;
-  bottom: 80px;
-  z-index:1;
-}*/
+
 #search-form {
   margin: 59px 20px auto 0;
   padding-left: 11px;
@@ -157,12 +159,9 @@ span.wpcf7-not-valid-tip {
 
 /* Position the menu elements a little higher */
 #nav a {
-  padding: 60px 16px 26px;
+  padding: 60px 15px 26px 14px;
 }
-/*#nav ul
-margin-bottom
 
-#nav a padding-top is 70px*/
 /* Caption text */
 .top-links span {
     color: #616161;
@@ -238,7 +237,53 @@ margin-bottom
   float: none;
 }
 
+/* Lightbox */
+
+/* bring the close button lower because of the floating menu bar */
+/*#swipebox-close {
+  top: 60px;
+}*/
+/* Cover the top menu bar when the swipe box is present */
+#swipebox-overlay {
+  z-index: 900000000 !important;
+}
+/*#swipebox-bottom-bar {
+  height: 100%;
+  background: none;
+}
+#swipebox-bottom-bar #swipebox-arrows {
+  height:100%;
+}
+#swipebox-bottom-bar #swipebox-prev {
+  background-color: rgba(0, 0, 0, 0.498039);
+  background-position: -32px 50%;
+  height:100%;
+}
+#swipebox-bottom-bar #swipebox-next {
+  background-color: rgba(0, 0, 0, 0.498039);
+  background-position: -78px 50%;
+  height:100%;
+}*/
+
+
+/* Blog */
+
+/* Widget spacing */
+.page-content .widget {
+  padding: 0 4%;
+}
+
+
 /* Forms (not part of the standard WPCF7 from the theme */
+/* Generic input submit buttons */
+
+input[type="submit"]{
+  background-color: #00BCD4;
+}
+
+input[type="submit"]:hover {
+  background-color: #60D0DE;
+}
 
 /* Flexbox forms */
 .tier1-contact {
@@ -304,8 +349,8 @@ margin-bottom
   min-width: 60px;
 }
 .tier1-contact .zip-input{
-  width:60px !important;
-  min-width: 60px;
+  width:64px !important;
+  min-width: 64px;
 }
 
 .tier1-contact .form-title {
@@ -343,15 +388,23 @@ margin-bottom
 .tier1-contact .wpcf7-form-control-wrap {
   width:100%;
 }
-/*.tier1-contact .one-third input[type=text]:nth-child(1), .tier1-contact .half input[type=text]:nth-child(1) {
-  margin-right: 1%;
+
+/* Style after successful form submit */
+.form-input-wrap h1 {
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
 }
-.tier1-contact .one-third input[type=text], .tier1-contact .one-half input[type=text] {
-  width:400px;
+.form-input-wrap p {
+  text-align: center;
+  margin: 0;
 }
-.tier1-contact .one-third input[type=text]:nth-child(2), .tier1-contact .half input[type=text]:nth-child(2) {
-  margin-left: 1%;
-}*/
+
+.form-input-wrap i {
+  font-size: 144px;
+  color: #FFF;
+}
+
 /* InfieldLabels Modified CSS */
 .infield-label label {
   z-index: 1;
@@ -375,15 +428,6 @@ margin-bottom
   font-size:12px;
 }
 
-/* WP Members Form Elements */
-#wpmem_login input[type="submit"], #wpmem_reg input[type="submit"]{
-  background-color: #00BCD4;
-  -webkit-appearance: none;
-}
-
-#wpmem_login input[type="submit"]:hover, #wpmem_reg input[type="submit"]:hover{
-  background-color: #60D0DE;
-}
 /* Call to Action */
 
 .cta-image-text .wpb_wrapper {
@@ -413,9 +457,51 @@ margin-bottom
 .listing-meta a:hover {
     color: #333;
 }
+.single-listing .archive-header, .post-type-archive-listing, .archive-header{
+  margin-bottom: 20px;
+}
 
 .single-listing #sidebar, .post-type-archive-listing #sidebar {
-  /*display: none;*/
+  display: none;
+}
+.logout-link {
+  text-align:right;
+}
+.listing-bottom-wrap {
+  background: #f5f5f5;
+  overflow: auto;
+}
+
+.listing-bottom-wrap button {
+  background-color: #00BCD4;
+}
+
+.listing-bottom-wrap button:hover {
+  background-color: #60D0DE;
+}
+
+#listing-agent, #listing-contact {
+    padding: 25px 25px 0;
+}
+.listing-navigation {
+  margin: 0 auto 24px;
+  padding: 0;
+}
+.listings-bottom-widget-wrap form {
+  margin-top: 24px;
+}
+/*.listings-bottom-widget-wrap h1 {
+  text-align: center;
+}*/
+.listings-bottom-widget-wrap select {
+  width: 80%;
+  float: left;
+  margin: 0 10% 20px;
+}
+.listings-bottom-widget-wrap .btn-search {
+  float:left;
+  width:100%;
+  text-align: center;
 }
 
 section#primary, div.content-area {
@@ -475,6 +561,24 @@ section#primary, div.content-area {
   display: none;
 }
 
+
+/* Form UI Dialogs with jQuery */
+.wpcf7-form-alert.ui-widget-content {
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(0, 0, 0, 0.498039);
+  background: rgba(0, 0, 0, 0.498039);
+}
+
+.wpcf7-form-alert .ui-widget-header{
+  background: #EA7676;
+  color: #FFF;
+  font-size: 1.1em;
+}
+
+.wpcf7-form-alert.ui-widget #dialog {
+  background: #FFF;
+  margin-top: 4px;
+}
 @media only screen and (min-width: 1200px) {
   #header .container:first-child, .top-bar .container:first-child{
     width: 1200px;
@@ -493,7 +597,7 @@ section#primary, div.content-area {
 } /* end @media only screen and (min-width: 1200px)  */
 @media (min-width: 961px) and (max-width: 1200px) {
 
-  #header .container:first-child, .top-bar .container:first-child{
+  #header .container:first-child, #header.sticky #nav-wrap .container, .top-bar .container:first-child{
     width: 100%;
   }
   /* Fix header logo width issues */
@@ -506,7 +610,12 @@ section#primary, div.content-area {
   }
 
   #nav a {
-    padding: 60px 11px 26px;
+    padding: 60px 11px 26px 10px;
+  }
+
+  #header.sticky #nav-wrap #nav > li > a {
+    margin: 0;
+    padding: 21px 13px;
   }
 } /* end @media (min-width: 961px) */
 
@@ -515,7 +624,11 @@ section#primary, div.content-area {
     font-size: 13px;
   }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 961) {
+  .form-input-wrap h1 {
+    font-size: 42px;
+  }
+} /* end @media only screen and (min-width: 961px) and (max-width: 1024px) */
 @media only screen and (max-width: 961px) {
   #listings-header-search select {
     width: 48%;
@@ -581,6 +694,7 @@ section#primary, div.content-area {
     text-align: center !important;
   }
 
+  /* Make the mobile menu bigger */
   #header.sm-rgt-mn .logo-wrap .logo img {
     max-height: 90px;
   }
@@ -594,6 +708,13 @@ section#primary, div.content-area {
     height: 4px;
     margin-bottom: 5px;
   }
+  #header.sm-rgt-mn #menu-icon.active span.mn-ext2{
+    margin-top: 12px;
+  }
+  #header.sm-rgt-mn #menu-icon.active span.mn-ext3 {
+    margin-top: -8px;
+  }
+
   #header.sm-rgt-mn #menu-icon {
     margin-top: 45px;
   }

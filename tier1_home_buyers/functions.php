@@ -20,6 +20,7 @@
 
 	//CSS
 	function enqueue_customcss() {
+		wp_enqueue_style( 'jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css');
 		wp_enqueue_style( 'infieldLabel', get_stylesheet_directory_uri() . '/css/jquery.infieldLabel.css' );
 		wp_enqueue_style( 'fjalla-one-font', 'https://fonts.googleapis.com/css?family=Fjalla+One' );
 		wp_enqueue_style( 'kreon-font', 'https://fonts.googleapis.com/css?family=Kreon:400,700' );
@@ -32,6 +33,7 @@
 
 	//JS
 	function enqueue_javascripts() {
+		wp_enqueue_script( 'jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js' );
 		wp_enqueue_script( 'main', get_stylesheet_directory_uri() . '/js/main.js' );
 		wp_enqueue_script( 'infieldlabel', get_stylesheet_directory_uri() . '/js/jquery.infieldLabel.js' );
 	} //end function enqueue_javascripts()
@@ -47,6 +49,28 @@
 		'after_widget' => '</div>',
 		'before_title' => '<h2>',
 		'after_title' => '</h2>',
+	));
+	} //end if (function_exists('register_sidebar'))
+
+	if (function_exists('register_sidebar')) {
+	register_sidebar(array(
+		'name'=> 'Listings Bottom Left',
+		'id' => 'listings_bottom_widget_left',
+		'before_widget' => '<div class="listings-bottom-widget-wrap">',
+		'after_widget' => '</div>',
+		'before_title' => '<h1 class="screen-reader-text">',
+		'after_title' => '</h1>',
+	));
+	} //end if (function_exists('register_sidebar'))
+
+	if (function_exists('register_sidebar')) {
+	register_sidebar(array(
+		'name'=> 'Listings Bottom Right',
+		'id' => 'listings_bottom_widget_right',
+		'before_widget' => '<div class="listings-bottom-widget-wrap">',
+		'after_widget' => '</div>',
+		'before_title' => '<h1 class="screen-reader-text">',
+		'after_title' => '</h1>',
 	));
 	} //end if (function_exists('register_sidebar'))
 

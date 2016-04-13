@@ -31,6 +31,8 @@ function single_listing_post_content() {
 	<div itemscope itemtype="http://schema.org/SingleFamilyResidence" class="entry-content wplistings-single-listing">
 
 		<div class="listing-image-wrap">
+
+
 			<?php echo '<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">'. get_the_post_thumbnail( $post->ID, 'listings-full', array('class' => 'single-listing-image', 'itemprop'=>'contentUrl') ) . '</div>';
 			if ( '' != wp_listings_get_status() ) {
 				printf( '<span class="listing-status %s">%s</span>', strtolower(str_replace(' ', '-', wp_listings_get_status())), wp_listings_get_status() );
@@ -255,24 +257,40 @@ function single_listing_post_content() {
 				echo '<div id="listing-map"><h3>Location Map</h3><div id="map-canvas" style="width: 100%; height: 350px;"></div></div><!-- .listing-map -->';
 			}
 		?>
+<div class="listing-bottom-wrap">
+	<div id="listing-agent">
+		<?php // Previous/next post navigation.
+		 wp_listings_post_nav();
+		//Comment out the agent code - may need to add back if they add IDX
+			//
+			// if (function_exists('_p2p_init') && function_exists('agent_profiles_init') ) {
+			// 	echo'<div id="listing-agent">
+			// 	<div class="connected-agents">';
+			// 	aeprofiles_connected_agents_markup();
+			// 	echo '</div></div><!-- .listing-agent -->';
+			// } elseif (function_exists('_p2p_init') && function_exists('impress_agents_init') ) {
+			// 	echo'<div id="listing-agent">
+			// 	<div class="connected-agents">';
+			// 	impa_connected_agents_markup();
+			// 	echo '</div></div><!-- .listing-agent -->';
+			// }
+			//Add the left sidebar
+			if ( is_active_sidebar( 'listings_bottom_widget_left' ) ) : ?>
+ 				 <div id="listing-bottom-widget-left" class="primary-sidebar widget-area" role="complementary">
+ 					 <?php dynamic_sidebar( 'listings_bottom_widget_left' ); ?>
+ 				 </div><!-- #primary-sidebar -->
+			<?php endif;?>
 
-		<?php
-			if (function_exists('_p2p_init') && function_exists('agent_profiles_init') ) {
-				echo'<div id="listing-agent">
-				<div class="connected-agents">';
-				aeprofiles_connected_agents_markup();
-				echo '</div></div><!-- .listing-agent -->';
-			} elseif (function_exists('_p2p_init') && function_exists('impress_agents_init') ) {
-				echo'<div id="listing-agent">
-				<div class="connected-agents">';
-				impa_connected_agents_markup();
-				echo '</div></div><!-- .listing-agent -->';
-			}
-		?>
-
+		</div>
 		<div id="listing-contact">
 
 			<?php
+			//Add the right sidebar above the contact form
+			if ( is_active_sidebar( 'listings_bottom_widget_right' ) ) : ?>
+ 				 <div id="listing-bottom-widget-right" class="primary-sidebar widget-area" role="complementary">
+ 					 <?php dynamic_sidebar( 'listings_bottom_widget_right' ); ?>
+ 				 </div><!-- #primary-sidebar -->
+			<?php endif;
 			$options = get_option('plugin_wp_listings_settings');
 			if (get_post_meta( $post->ID, '_listing_contact_form', true) != '') {
 
@@ -419,7 +437,7 @@ function single_listing_post_content() {
 			}
 			?>
 		</div><!-- .listing-contact -->
-
+	</div> <!-- .listing-bottom-wrap -->
 	</div><!-- .entry-content -->
 
 <?php
@@ -460,9 +478,11 @@ if($options['wp_listings_custom_wrapper'] && $options['wp_listings_start_wrapper
 } else {
 	echo '<div id="primary" class="content-area container inner">
 		<div id="content" class="site-content" role="main">';
-}
-//Only allow logged in members to view this
-if( is_user_logged_in() ) {
+	}
+um_fetch_user( get_current_user_id() );
+//check for the slug of the membership type
+if ( $ultimatemember->user->get_role() == 'listing-access' || $ultimatemember->user->get_role() == 'admin' ) {
+// Show this to paid customers
 	// Start the Loop.
 	while ( have_posts() ) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -489,15 +509,15 @@ if( is_user_logged_in() ) {
 
 <?php
 	// Previous/next post navigation.
-	wp_listings_post_nav();
+	// wp_listings_post_nav();
 
 	endwhile;
 
 
-
-	} else {
-		echo do_shortcode('[vc_row][vc_column][vc_row_inner][vc_column_inner width="1/4"][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text][wpmem_form login redirect_to="/listings/"][/vc_column_text][/vc_column_inner][vc_column_inner width="1/4"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]');
-	}
+} else {
+		//show the login form
+		echo do_shortcode('[ultimatemember form_id=232]');
+}
 
 
 if($options['wp_listings_custom_wrapper'] && $options['wp_listings_end_wrapper']) {
